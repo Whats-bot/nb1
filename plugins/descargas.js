@@ -173,7 +173,7 @@ if (!data.resultado || !data.resultado.url) {
 enviando = false;
 } else {
 try {
-if (command === 'play.1' || command == 'musica') {
+if (command === 'play.1' || command == 'песня') {
 m.reply(lenguaje.descargar.audio) 
 apiUrl = `https://api-brunosobrino.zipponodes.xyz/api/v1/ytmp3?url=${data.resultado.url}`;
 mimeType = 'audio/mpeg';
@@ -187,7 +187,7 @@ fileName = 'error.mp4';
 buff = await conn.getFile(apiUrl);
 }} catch {
 try {
-if (command === 'play.1' || command == 'musica') {
+if (command === 'play.1' || command == 'песня') {
 m.reply(lenguaje.descargar.audio) 
 apiUrl = `https://api-brunosobrino.onrender.com/api/v1/ytmp3?url=${data.resultado.url}`;
 mimeType = 'audio/mpeg';
