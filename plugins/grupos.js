@@ -160,12 +160,12 @@ m.reply(lenguaje.grupos.text19)
 global.db.data.chats[m.chat].isBanned = false
 m.reply(lenguaje.grupos.text20)}}
 
-if (command == 'tagall' || command == 'invocar' || command == 'todos') {
+if (command == 'tagall' || command == 'Внимание' || command == 'todos') {
 if (!m.isGroup) return m.reply(info.group) 
 if (!isGroupAdmins) return m.reply(info.admin)
 const pesan = args.join` `;
 const oi = `${lenguaje.grupos.text21} ${pesan}`;
-let teks = `❑ ━〔 *📢 ＩＮＶＯＣＡＣＩＯＮ 📢* 〕━ ❑\n\n`
+let teks = `❑ ━〔 *📢 ВНИМАНИЕ УЧАСТНИКИ ГРУППЫ 📢* 〕━ ❑\n\n`
 teks += `${oi}\n\n`
 for (let mem of participants) {
 teks += `➥ @${mem.id.split('@')[0]}\n`
