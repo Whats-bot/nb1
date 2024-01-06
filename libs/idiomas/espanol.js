@@ -565,8 +565,8 @@ text3: `*Responda un sticker para robar`,
 text4: `ingresa algo para convertirlo a sticker :v`, 
 text5: `_*Calma crack estoy haciendo tu texto a sticker 👏*_\n\n_*Esto puede demorar unos minutos....*_` }
 
-const idioma = (prefix) => { return `*✳️Usar:*\n${prefix}idioma 1 (español)\n${prefix}idioma 2 (inglés)\n${prefix}idioma 3 (arabe)\n${prefix}idioma 4 (Indonesia)\n${prefix}idioma 5 (portugues)\n${prefix}idioma 6 (ruso)\n\n*❗Ejemplo:*\n• ${prefix}idioma 1` }
-const idioma2 = () => { return `✅Idiomas cambiado con éxito a ` }
+const idioma = (prefix) => { return `*✳️Выбери язык бота который удобен тебе:*\n${prefix}язык 1 (Испанский)\n${prefix}язык 2 (Английский)\n${prefix}язык 3 (арабский)\n${prefix}язык 4 (Индонезия)\n${prefix}язык 5 ( португальский)\n${prefix}язык 6 ( Россия)\n\n*❗ Пример:*\n• ${prefix}язык 6` }
+const idioma2 = () => { return `✅Язык успешно изменен на ` }
 
 const smsReg = () => { return `*Ya estas registrado 🧐*` }
 const smsReg1 = (prefix) => { return `*❌ Forma incorrecta*\n\nuse de esta forma\nEjemplo: ${prefix}reg nombre.edad` }
@@ -575,9 +575,9 @@ const smsReg3 = () => { return `La edad no puede esta vacia (Numeros)` }
 const smsReg4 = () => { return 'Esta Viejo (。-`ω´-)' }
 const smsReg5 = () => { return `🚼  Basado, los bebes saber escribir.✍️😳` }
 const smsReg6 = () => { return `🐈 Fua que basado, el nombre es muy largo que quiere un puente como nombre😹` }
-const smsReg7 = (name, user, age, time, date, sender, sn, prefix, rtotalreg) => { return `[ ✅ REGISTRO COMPLETADO ]\n\n ◉ *Nombre:* ${name} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓' : ''}\n ◉ *Edad:* ${age} años\n ◉ *Hora:* ${time}\n ◉ *Fecha:* ${date}\n ◉ *Número:* wa.me/${sender.split("@")[0]}\n ◉ *Numero del serie*\n ⤷ ${sn}\n\n 🎁 *Recompensa:*\n ⤷ 2 diamante 💎\n ⤷ 200 exp\n\n *◉ Para ver los comandos del bot usar:*
- ${prefix}menu\n\n ◉ *Total de usuários registrados:* ${rtotalreg}` }
-const smsReg8 = () => { return `*💬 Elegir tu idioma con:* #idioma` }
+const smsReg7 = (name, user, age, time, date, sender, sn, prefix, rtotalreg) => { return `[ ✅ РЕГИСТРАЦИЯ ЗАВЕРШЕНА ]\n\n ◉ *Ник:* ${name} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓' : ''}\n ◉ *Возраст:* ${age}  лет\n ◉ *Время:* ${time}\n ◉ *Дата:* ${date}\n ◉ *Номер:* wa.me/${sender.split("@")[0]}\n ◉ *Серийный номер*\n ⤷ ${sn}\n\n 🎁 *Подарок:*\n ⤷ 2 алмаз 💎\n ⤷ 200 опыт\n\n *◉ Для просмотра команд бота используй комманду:*
+ ${prefix}menu\n\n ◉ *Всего зарегистрированных пользователей:* ${rtotalreg}` }
+const smsReg8 = () => { return `*💬 Выберите язык бота с помощью:* #язык` }
  
 const cuenta = (nna, md, yt, tiktok, fb) => { return `*Bienvenido a las cuentas oficiales ✨*
 

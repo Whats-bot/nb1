@@ -387,7 +387,7 @@ case 's': case 'sticker': case 'wm': case 'take': case 'attp': case 'dado': stic
 break
  
 //idiomas 
-case 'idioma': case 'Language': case 'idiomas': { 
+case 'язык': case 'Language': case 'idiomas': { 
 let user = global.db.data.users[m.sender]
 if (!text) return m.reply(lenguaje.AvisoMG() + lenguaje.idioma(prefix)) 
 if (budy.includes(`1`)) { 
