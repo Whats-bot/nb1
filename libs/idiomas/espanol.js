@@ -102,7 +102,7 @@ const bot = () => { return `*⚠️ Este comando solo (YO) los puedo usar*` }
 const error = () => { return `⪨╼╼≪⚠️ ERROR ⚠️≫╾╼⪩\n\nOCURRIÓ UN ERROR INESPERADO, (API CAIDA 😢)` }
 const AvisoMG = () => { return `⪨╼╼≪⚠️ ACCION MAL USADA ⚠️≫╾╼⪩\n\n` }
 const advertencia = () => { return `[ ⚠️ ＡＤＶＥＲＴＥＮＣＩＡ ]` }
-const registra = () => { return `*[ 🔴 HEY ALTO NO ESTAS REGISTRADO 🔴 ]*\n\nNO APARECES EN MI BASE DE DATOS ✋\n\nPara poder usar el bot necesita esta registrado:\n\n#reg nombre.edad` }
+const registra = () => { return `*[ 🔴 ПРОЙДИ ОБЯЗАТЕЛЬНУЮ РЕГИСТРАЦИЮ 🔴 ]*\n\nТЕБЯ НЕТ В МОЕЙ БАЗЕ ДАННЫХ ✋\n\nЧто-бы начать пользоваться ботом, необходимо пройти обязательную регистрацию!!!:\n\nДля этого введите комманду \n\n#reg ник.возраст` }
 const limit = () => { return `*ᴅɪᴀᴍᴀɴᴛᴇ 💎 ᴜsᴀᴅᴏ*` }
 const AntiNsfw = () => { return `*Los comando +18 esta desactivado*\nSi eres admin y quiere activarlos usar:\n• modocaliente on` }
 const endLimit = () => { return `*😢 NOO TENER MAS DIAMANTE 💎*\n\nPuede comprar mas usando el comando: #buy` }
