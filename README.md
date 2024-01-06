@@ -1,20 +1,19 @@
-> <b>  🚀 Version 1.0.7 </b>
-
+##  ✨  ZloiBoT-MD ✨
 
 <p align="center">
-<a href="#">< src="https://imageup.ru/img86/4691260/ava.jpg/badge/a -purple?colorA=%cc33ff&colorB=%cc33ff&style=for-the-badge"></a>
-
+<img src="https://imageup.ru/img86/4691260/ava.jpg" alt="ZloiBoT-MD" width="450"/>
+</p>
 
 
     
-### `👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
+### `👑 Контакты создателя бота 👑`
 <p align="center">
 <a href="https://github.com/Whats-bot"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB&center=verdadero&vCenter=verdadero&lines=Solo+escr%C3%ADba+si+tiene+dudas." height="40px"
 </p>
     
 <a href="wa.me/79524197466" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
-### Quiere probar la funciones del bot, antes de instalar, probar el bot aquí
+### Если хочешь посмотреть функционал и протестироват бота-Добро пожаловать в группу
 
 [![Grupos](https://img.shields.io/badge/Grupos-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FQ4gui0wUTO94zgP2YUbsH) 
 
