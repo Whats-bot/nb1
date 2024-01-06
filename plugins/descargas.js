@@ -16,7 +16,7 @@ const formatSize = sizeFormatter({
 async function descarga(m, command, conn, text, command, args, fkontak, from, buffer, getFile, q, includes, lolkeysapi) {
 if (global.db.data.users[m.sender].registered < true) return m.reply(info.registra)
 if (global.db.data.users[m.sender].limit < 1) return m.reply(info.endLimit)
-if (command == 'песня') {
+if (command == 'play') {
 const yts = require("yt-search") 
 const ytdl = require('ytdl-core') 
 if (!text) return m.reply(lenguaje.descargar.text + ` *${prefix + command}* ozuna`) 
@@ -149,7 +149,7 @@ m.react(error)
 return m.reply(info.error) 
 console.log(e)}}}}
 
-if (command == 'play.1' || command == 'musica' || command == 'play.2' || command == 'video') {
+if (command == 'play.1' || command == 'песня' || command == 'play.2' || command == 'video') {
 let data;
 let buff;
 let mimeType;
