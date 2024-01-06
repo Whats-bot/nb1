@@ -12,7 +12,7 @@ const os = require('os')
 
 const menu = (m, command, conn, prefix, pushname, sender, pickRandom, fkontak) => {
 if (global.db.data.users[m.sender].registered < true) return m.reply(info.registra)
-if (command == 'menu' || command == 'menucompleto') {
+if (command == 'menu' || command == 'меню') {
 let user = global.db.data.users[m.sender]
 let totalreg = Object.keys(global.db.data.users).length
 let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
