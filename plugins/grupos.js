@@ -160,7 +160,7 @@ m.reply(lenguaje.grupos.text19)
 global.db.data.chats[m.chat].isBanned = false
 m.reply(lenguaje.grupos.text20)}}
 
-if (command == 'tagall' || command == 'Внимание' || command == 'todos') {
+if (command == 'tagall' || command == 'внимание' || command == 'todos') {
 if (!m.isGroup) return m.reply(info.group) 
 if (!isGroupAdmins) return m.reply(info.admin)
 const pesan = args.join` `;
