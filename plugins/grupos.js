@@ -172,7 +172,7 @@ teks += `➥ @${mem.id.split('@')[0]}\n`
 }
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
-if (command == 'admins' || command == 'administradores') {
+if (command == 'админы' || command == 'administradores') {
 if (!m.isGroup) return m.reply(info.group);  
 const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => null) || './src/admins.jpg';
 const groupAdmins = participants.filter((p) => p.admin);
@@ -180,7 +180,7 @@ const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).
 const owner = groupMetadata.owner || groupAdmins.find((p) => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net';
 const pesan = args.join` `;
 const oi = `${lenguaje.grupos.text21} ${pesan}`;
-const text = `═✪〘 *ＩＮＶＯＣＡＮＤＯ ＡＤＭＩＮＳ* 〙✪═\n\n• *ɢʀᴜᴘᴏ:* [ ${groupMetadata.subject} ]\n\n• ${oi}\n\n• *ᴀᴅᴍɪɴs:*\n➥ ${listAdmin}\n\n${lenguaje.grupos.text22}`.trim(); 
+const text = `═✪〘 *ВНИМАНИЕ АДМИНЫ* 〙✪═\n\n• *ГРУППА:* [ ${groupMetadata.subject} ]\n\n• ${oi}\n\n• *Список админов:*\n➥ ${listAdmin}\n\n${lenguaje.grupos.text22}`.trim(); 
 conn.sendMessage(m.chat, { text: text, mentions: participants.map(a => a.id) }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
 if (command == 'infogrupo' || command == 'groupinfo') {
