@@ -100,7 +100,7 @@ const group = () => { return `*⚠️ Pendejo este comando solo se puede usar el
 const private = () => { return `*⚠️ Este comando solo se puede usar al chat privado*` }
 const bot = () => { return `*⚠️ Este comando solo (YO) los puedo usar*` }
 const error = () => { return `⪨╼╼≪⚠️ ERROR ⚠️≫╾╼⪩\n\nOCURRIÓ UN ERROR INESPERADO, (API CAIDA 😢)` }
-const AvisoMG = () => { return `⪨╼╼≪⚠️ ACCION MAL USADA ⚠️≫╾╼⪩\n\n` }
+const AvisoMG = () => { return `⪨╼╼≪⚠️ СИСТЕМНЫЕ НАСТРОЙКИ ⚠️≫╾╼⪩\n\n` }
 const advertencia = () => { return `[ ⚠️ ＡＤＶＥＲＴＥＮＣＩＡ ]` }
 const registra = () => { return `*[ 🔴 ПРОЙДИ ОБЯЗАТЕЛЬНУЮ РЕГИСТРАЦИЮ 🔴 ]*\n\nТЕБЯ НЕТ В МОЕЙ БАЗЕ ДАННЫХ ✋\n\nЧто-бы начать пользоваться ботом, необходимо пройти обязательную регистрацию!!!:\n\nДля этого введите комманду \n\n#reg ник.возраст` }
 const limit = () => { return `*Бриллиант(ов) 💎 спользован(о)*` }
@@ -344,7 +344,7 @@ descargado: `_Descargo archivo aguarde un momento...._` }
 
 //enable.js
 const enable = {
-text: `⪨╼╼≪⚠️ ACCION MAL USABA ⚠️≫╾╼⪩\n\n*Use de esta forma ejemplo:*`, 
+text: `⪨╼╼≪⚠️  СИСТЕМНЫЕ НАСТРОЙКИ ⚠️≫╾╼⪩\n\n*Используйте этот пример:*`, 
 text1: `*Se activo con exito*`, 
 text2: `*Esta desactivado!*`, 
 text3: `*Atención a todos los miembros activos de este grupo 📣*\n\n*El antilink esta activo*\n\n*Y solo los admins de este grupo podran pasar el enlace*\n\nSi algun participante que no es admin envía un enlace de otro grupo sera expulsado de este grupo de inmediato`, 
