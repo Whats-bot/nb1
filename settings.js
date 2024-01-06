@@ -64,7 +64,7 @@ global.APIKeys = {
 };
  
 //---------[ STICKERS ]---------
-global.packname = "𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃"
+global.packname = "ZloiBoT"
 global.author = `${vs}`
  
 //---------[ IMAGEN ]---------
