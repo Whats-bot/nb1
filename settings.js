@@ -17,7 +17,7 @@ global.vs = '1.0.7'
 
 //---------[ FECHA/IDIOMAS ]---------
 global.place = 'America/Bogota' // Aquí puedes encontrar tu ubicación https://momentjs.com/timezone/
-global.lenguaje = es //Predeterminado en idioma Español 
+global.lenguaje = rs //Predeterminado en idioma Español 
 
 //---------[ APIS GLOBAL ]---------
 global.keysZens = ['LuOlangNgentot', 'c2459db922', '37CC845916', '6fb0eff124', 'hdiiofficial', 'fiktod', 'BF39D349845E', '675e34de8a', '0b917b905e6f']; 
