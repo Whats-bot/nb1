@@ -480,7 +480,7 @@ await conn.sendMessage(m.sender, {document: creds, mimetype: 'application/json',
 } catch (e) {
 console.log(e)}   
 break 
-case '':  
+case 'обновить':  
 if (!isCreator) return reply(info.owner)
 try {    
 let stdout = execSync('git pull' + (m.fromMe && q ? ' ' + q : ''))
