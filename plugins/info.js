@@ -47,7 +47,7 @@ let a = await conn.sendMessage(m.chat, { contacts: { displayName: 'ɴᴏᴠᴀʙ
 await conn.sendMessage(m.chat, { text : `${lenguaje['smsWel']()} @${sender.split("@")[0]}, ${lenguaje.info.text12}`, mentions: [sender]}, { quoted: a, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 }
 
-if (command == 'grupos' || command == 'grupoficiales') {
+if (command == 'grupos' || command == 'группы') {
 //const grupp = Math.floor(Math.random() * 70);
 let amix = 'https://chat.whatsapp.com/BoWizgBwOFJ6LcaZlXGO6k'
 let a = `${pickRandom([nn, nn2, nn3, nn4, nn5, nn6, nna, nn7, nn8, multi])}`

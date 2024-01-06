@@ -337,7 +337,7 @@ break
 //Info
 case 'menu': case 'help': case 'меню': case 'menu2': case 'audio': case 'nuevo': case 'extreno': case 'reglas': menu(m, command, conn, prefix, pushname, sender, pickRandom, fkontak) 
 break  
-case 'estado': case 'infobot': case 'owner': case 'создатель': case 'contacto': case 'grupos': case 'grupoficiales': case 'скриптбота': case 'crearbot': case 'ping': case '5492266613038': case '593980586516': case '595975740803': case 'report': case 'sc': case 'donar': case 'solicitud': case 'cuenta': case 'cuentaoficiales': case 'cuentaofc': info(command, conn, m, speed, sender, fkontak, pickRandom, pushname, from, msg, text) 
+case 'estado': case 'infobot': case 'owner': case 'создатель': case 'contacto': case 'grupos': case 'группы': case 'скриптбота': case 'crearbot': case 'ping': case '5492266613038': case '593980586516': case '595975740803': case 'report': case 'sc': case 'donar': case 'solicitud': case 'cuenta': case 'cuentaoficiales': case 'cuentaofc': info(command, conn, m, speed, sender, fkontak, pickRandom, pushname, from, msg, text) 
 break 
   
 //activar/desactivar
