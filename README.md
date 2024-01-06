@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<a href="#"><img title="ZloiBoT-MD" src="https://imageup.ru/img86/4691260/ava.jpg/badge/a -purple?colorA=%cc33ff&colorB=%cc33ff&style=for-the-badge"></a>
+<a href="#">< src="https://imageup.ru/img86/4691260/ava.jpg/badge/a -purple?colorA=%cc33ff&colorB=%cc33ff&style=for-the-badge"></a>
 
 
 
