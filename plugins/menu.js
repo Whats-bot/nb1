@@ -54,8 +54,8 @@ ${lenguaje.menu.text12}
 ├❥ᰰຼ ❏ ${prefix}инфобота _(информация о боте)_
 ├❥ᰰຼ ❏ ${prefix}menu2
 ├❥ᰰຼ ❏ ${prefix}audios 
-├❥ᰰຼ ❏ ${prefix}nuevo _(nuevo comando)_
-├❥ᰰຼ ❏ ${prefix}reglas _(reglas)_
+├❥ᰰຼ ❏ ${prefix}чтонового _(узнать что нового в боте )_
+├❥ᰰຼ ❏ ${prefix}правилабота _(информация об использовании бота)_
 ├❥ᰰຼ ❏ ${prefix}ping _(Velocidad)_
 ├❥ᰰຼ ❏ ${prefix}grupos _(grupos oficiales)_
 ├❥ᰰຼ ❏ ${prefix}join _(solicita un bot para tu grupo)_
@@ -373,10 +373,10 @@ if (command == 'menu2' || command == 'audio') {
 let menu2 = `${lenguaje.menu.text13}\n\na\nfeliz navidad\nMerry Christmas\nFeliz cumpleaños\nPasa pack\nUwu\nSiuuu\nVete a la verga\nPasen porno\nHora del sexito\nPongan cuties\nFiesta del admin\nAdmin party\nViernes\nGOOOOD\nAlto temazo\nTodo bien\nBuenos dias\nBot gay\nGracias\nFua\nCorte\nGaspi buenos dias\nGaspi me saludas\nGaspi y las minitas\nGaspi todo bien\nGaspi ya no aguanto\nContate algo bot\nSexo\nMomento epico\nEl bot del orto no funciona\nEpicardo\nInsta de la minita\nUna mierda de bot\nUltimo momento\nNefasto\nParaguayo\nBot de mierda\nVenezolano\nGaspi corte\nYa me voy a dormir\nCalefon\nApurate bot\nUn chino\nNo funciona\nBoliviano\nEnano\nQuien es tu sempai botsito\nMe gimes 7u7\nTe amo botsito uwu\nOnichan\nLa toca 7w7\nautodestruction\n\n${lenguaje.menu.text14}`
 conn.sendMessage(m.chat, { text: menu2}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
-if (command == 'nuevo' || command == 'extreno') {
+if (command == 'nuevo' || command == 'чтонового') {
 conn.sendMessage(m.chat, { text: `${lenguaje.menu.text15} [ ${vs} ]\n\n${lenguaje.menu.text16}`, contextInfo:{mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
-if (command == 'reglas') {
+if (command == 'reglas' || command == 'правилабота') {
 conn.sendMessage(m.chat, { text: `${lenguaje.menu.text17}`, contextInfo:{mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}}
 
 module.exports = { menu }
