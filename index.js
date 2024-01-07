@@ -406,12 +406,12 @@ for (let num of participants) {
 try {
 ppuser = await sock.profilePictureUrl(num, 'image')
 } catch (err) {
-ppuser = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60'
+ppuser = 'https://imageup.ru/img252/4692437/sinfoto.png'
 }
 try {
 ppgroup = await sock.profilePictureUrl(anu.id, 'image')
 } catch (err) {
-ppgroup = 'https://i.ibb.co/RBx5SQC/avatar-group-large-v2.png?q=60'
+ppgroup = 'https://imageup.ru/img252/4692437/sinfoto.png'
 }
 memb = metadata.participants.length
 welc = await getBuffer(ppuser)
@@ -437,7 +437,7 @@ contextInfo: { mentionedJid:[num], "externalAdReply": {
 "previewType": "PHOTO", 
 "thumbnailUrl": null,
 "thumbnail": welc, 
-"sourceUrl": `${pickRandom([md, yt])}`, 
+"sourceUrl": `${pickRandom([nna, nn6])}`, 
 "showAdAttribution": true}}, 
 seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'texto2')
@@ -465,7 +465,7 @@ let bye = by[Math.floor(Math.random() * by.length)]
 if (media === 'texto')
 sock.sendMessage(anu.id, { text: bye, mentions: [num]}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'texto2')
-sock.sendMessage(anu.id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 😹\`\`\``,
+sock.sendMessage(anu.id, { text: `\`\`\`[!] От нас сбежал предатель : @${name.split("@")[0]} 😹\`\`\``,
 contextInfo:{
 forwardingScore: 9999999,
 isForwarded: true, 
@@ -473,7 +473,7 @@ mentionedJid:[num],
 "externalAdReply": {"showAdAttribution": true,
 "containsAutoReply": true,
 "title": '乂 П Р О Щ А Й 乂', 
-body: `Esperemos que no vuelva -_-`,
+body: `Будем надеяться, что он больше не вернется -_-`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": leave,
