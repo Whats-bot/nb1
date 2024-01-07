@@ -105,7 +105,7 @@ if (!isBotAdmins) return m.reply(info.botAdmin)
 if (!isGroupAdmins) return m.reply(info.admin)
 let res = conn.groupRevokeInvite(m.chat)}
 
-if (command == 'add' || command == 'agregar' || command == 'invitar') {
+if (command == 'add' || command == 'добавить' || command == 'invitar') {
 if (!m.isGroup) return m.reply(info.group);  
 if (!isBotAdmins) return m.reply(info.botAdmin)
 if (!isGroupAdmins) return m.reply(info.admin)
@@ -116,7 +116,7 @@ let link = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group)
 await conn.sendMessage(text+'@s.whatsapp.net', {text: `${lenguaje.grupos.text15}\n\n${link}`, mentions: [m.sender]})
 m.reply(lenguaje.exito())}
 
-if (command == 'kick' || command == 'echar' || command == 'sacar') {
+if (command == 'kick' || command == 'снести' || command == 'sacar') {
 if (!m.isGroup) return m.reply(info.group) 
 if (!isBotAdmins) return m.reply(info.botAdmin)
 if (!isGroupAdmins) return m.reply(info.admin)
