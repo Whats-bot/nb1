@@ -31,7 +31,7 @@ user.afkReason = ''
 }
 
 async function reg(command, conn, m, sender, text, budy, fkontak, delay, args) {
-if (command == 'reg' || command == 'verificar') {
+if (command == 'reg' || command == 'регистрация') {
 let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
 let user = global.db.data.users[m.sender]
 let codigosIdiomas = ['es', 'en']
