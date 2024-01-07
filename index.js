@@ -422,7 +422,7 @@ const time = moment.tz('America/Bogota').format('HH:mm:ss')
 const date = moment.tz('America/Bogota').format('DD/MM/YYYY')
 let name = num
 const miembros = metadata.participants.length
-let vn = './media/Bienvenido.mp3'
+let vn = './media/правила.mp3'
 let wel = [`${lenguaje['smsWel']()} @${name.split("@")[0]} ${lenguaje['smsWel2']()}`, `${lenguaje['smsWel']()} @${name.split("@")[0]} ${lenguaje['smsWel3']()} ${metadata.subject} 』\n\n${lenguaje['smsWel4']()}`, `${lenguaje['smsWel5']()} ${lenguaje['smsWel6']()} @${name.split("@")[0]} 🥳`]
 let or = ['texto', 'audio', 'texto2'];
 let media = or[Math.floor(Math.random() * 3)]
@@ -432,7 +432,7 @@ sock.sendMessage(anu.id, { text: welcome, mentions: [num]}, {quoted: null, ephem
 if (media === 'audio')
 sock.sendMessage(anu.id, { audio: { url: vn }, 
 contextInfo: { mentionedJid:[num], "externalAdReply": { 
-"title": `乂 ＷＥＬＣＯＭＥ 乂`, 
+"title": `乂 Н О В Е Н Ь К И Й 乂`, 
 "body": `${name.split("@")[0]}`, 
 "previewType": "PHOTO", 
 "thumbnailUrl": null,
@@ -447,12 +447,12 @@ isForwarded: true,
 mentionedJid:[num],
 "externalAdReply": {"showAdAttribution": true,
 "containsAutoReply": true,
-"title": `乂 ＷＥＬＣＯＭＥ 乂`,
+"title": `乂 Н О В Е Н Ь К И Й 乂`,
 body: `${metadata.subject}`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": welc,
-"sourceUrl": `${pickRandom([nna, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+"sourceUrl": `${pickRandom([nna, nn6])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 } else if (anu.action == 'remove') {
 const buffer = await getBuffer(ppuser)
 let name = num
@@ -472,42 +472,42 @@ isForwarded: true,
 mentionedJid:[num],
 "externalAdReply": {"showAdAttribution": true,
 "containsAutoReply": true,
-"title": '乂 ＡＤＩＯ́Ｓ 乂', 
+"title": '乂 П Р О Щ А Й 乂', 
 body: `Esperemos que no vuelva -_-`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": leave,
-"sourceUrl": `${pickRandom([nna, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+"sourceUrl": `${pickRandom([nna, nn6])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'stickers')
-sock.sendFile(anu.id, byegc, 'sticker.webp', '', null, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: '乂 ＡＤＩＯ́Ｓ 乂', body: `${name.split("@")[0]}`, mediaType: 2, sourceUrl: `${pickRandom([md, yt])}`, thumbnail: leave}}})
+sock.sendFile(anu.id, byegc, 'sticker.webp', '', null, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: '乂 АДМИНЫ 乂', body: `${name.split("@")[0]}`, mediaType: 2, sourceUrl: `${pickRandom([md, yt])}`, thumbnail: leave}}})
 } else if (anu.action == 'promote') {
 const buffer = await getBuffer(ppuser)
 let name = num
-sock.sendMessage(anu.id, { text: `${pickRandom(['[ NUEVO ADMINS ]\n\n', 'Hey'])} @${name.split("@")[0]} ${pickRandom(['Ahora eres admin del grupo 🥳', 'Felicidades ahora eres parte staff 🎉'])}`, 
+sock.sendMessage(anu.id, { text: `${pickRandom(['[ НОВЫЙ АДМИН ]\n\n', ''])} @${name.split("@")[0]} ${pickRandom(['Теперь ты админ группы 🥳', 'Поздравляем, теперь вы являетесь частью персонала начальства группы 🎉'])}`, 
  contextInfo:{
  mentionedJid:[num],
  "externalAdReply": {"showAdAttribution": true,
  "containsAutoReply": true,
- "title": `乂 ＮＵＥＶＯ ＡＤＭＩＮ 乂`,
+ "title": `乂 НОВЫЙ АДМИН 乂`,
 "body": botname,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": welc,
-"sourceUrl": `${pickRandom([nna, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+"sourceUrl": `${pickRandom([nna, nn6])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 } else if (anu.action == 'demote') {
 const buffer = await getBuffer(ppuser)
 let name = num
-sock.sendMessage(anu.id, { text: `@${name.split("@")[0]} ${pickRandom(['Joderte ya no eres admin 🥲', 'jjjjj ya no eres admin culiado 🤣'])}`,
+sock.sendMessage(anu.id, { text: `@${name.split("@")[0]} ${pickRandom(['К черту тебя, ты больше не администратор 🤣🤣🤣🥲', 'Аххахха, пнули с админов 🤣 Походу косяк серьезный 🤣'])}`,
  contextInfo:{
  mentionedJid:[num],
  "externalAdReply": {"showAdAttribution": true,
  "containsAutoReply": true,
- "title": `乂 ＵＮ ＡＤＭＩＮ ＭＥＮＯＳ  乂`,
+ "title": `乂 БОЛЬШЕ НЕ АДМИН  乂`,
 "body": botname, 
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": leave,
-"sourceUrl": `${pickRandom([nna, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+"sourceUrl": `${pickRandom([nna, nn6])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 }}} catch (err) {
 console.log(`${err} Error`)
 }})
