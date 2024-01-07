@@ -377,7 +377,7 @@ case 'play': case 'песня': case 'music': case 'play2': case 'video': case '
 break    
 
 //rpg 
-case 'reg': case 'регистрация': case 'unreg': case 'myns': await reg(command, conn, m, sender, text, budy, fkontak, delay, args)
+case 'reg': case 'регистрация': case 'unreg': case 'серийник': await reg(command, conn, m, sender, text, budy, fkontak, delay, args)
 break   
 case 'lb': case 'leaderboard': case 'afk': case 'rob': case 'robar': case 'buy': case 'buyall': case 'bal': case 'balance': case 'diamond': case 'minar': case 'mine': case 'trabajar': case 'work': case 'w': case 'claim': case 'daily': case 'perfil': case 'levelup': case 'nivel': case 'cofre': case 'minar2': case 'mine2': rpg(m, command, participants, args, sender, pushname, text, conn, fkontak, who)   
 break    
