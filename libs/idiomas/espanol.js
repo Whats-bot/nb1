@@ -30,24 +30,24 @@ const smsAvisos8 = () => { return `ᴸᵃ ᵈᵉˢᶜʳᶦᵖᶜᶦᵒ́ⁿ ᵈ�
 const smsAvisos9 = () => { return `*ᴱˡ ⁿᵒᵐᵇʳᵉ ᵈᵉˡ ᵍʳᵘᵖᵒ ᶠᵘᵉ ᶜᵃᵐᵇᶦᵃᵈᵒ ⁿᵘᵉᵛᵒˢ ⁿᵒᵐᵇʳᵉ ᵉˢ*` }
 
 //welcome
-const smsWel =  () => { return `Hola` }
-const smsWel2 = () => { return `¿COMO ESTAS? 😃` }
-const smsWel3 = () => { return `¿COMO ESTAS?😃\n\n『Bienvenido A` }
-const smsWel4 = () => { return `Un gusto conocerte amig@ 🤗\n\n_Recuerda leer las reglas del grupo para no tener ningun problema 🧐_\n\n*Solo disfrutar de este grupo y divertite 🥳*` }
-const smsWel5 = () => { return `[ NUEVO MIEMBRO ]\n\n` }
-const smsWel6 = () => { return `𝘓𝘦 𝘥𝘢𝘮𝘰𝘴 𝘭𝘢 𝘣𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘢 𝘢` }
-const smsWel7 = () => { return `⪨────[ ＷＥＬＣＯＭＥ ]────⪩\n\n` }
-const smsWel8 = () => { return `💫 *Bienvenido a :*` }
-const smsWel9 = () => { return `💫 *Participarte*` }
-const smsWel10 = () => { return `💫 *Fecha*` }
-const smsWel11 = () => { return `📢 *Lee la descripcion* 📢\n` }
-const smsBye = () => { return `Adios` }
-const smsBye2 = () => { return `Bueno, se fue` }
-const smsBye3 = () => { return `Que dios lo bendiga 😎` }
-const smsBye4 = () => { return `Salió del grupo._` }
-const smsBye5 = () => { return `se fue\n┃ un fan del bts` }
-const promote = () => { return `Felicidades ahora eres parte staff 🎉` }
-const demote = () => { return `ya no eres admins 🥲` }
+const smsWel =  () => { return ` Привет` }
+const smsWel2 = () => { return `¿ КАК ВЫ? 😃` }
+const smsWel3 = () => { return `¿ КАК ВЫ?😃\n\n『 Добро пожаловать в` }
+const smsWel4 = () => { return `Приятно познакомиться с друзьями 🤗\n\n_Не забудьте прочитать правила группы, чтобы не попасть в неприятности 🧐_\n\n*Просто наслаждайтесь группой и получайте удовольствие 🥳*` }
+const smsWel5 = () => { return `[ НОВЫЕ УЧАСТНИКИ ]\n\n` }
+const smsWel6 = () => { return `Мы приветствуем вас` }  
+const smsWel7 = () => { return `⪨────[ ДОБРО ПОЖАЛОВАТЬ ]────⪩\n\n` } 
+const smsWel8 = () => { return `💫 *Добро пожаловать в :*` }
+const smsWel9 = () => { return `💫 *Участвовать*` }
+const smsWel10 = () => { return `💫 *Дата*` }
+const smsWel11 = () => { return `📢 *Прочитайте описание* 📢\n` }
+const smsBye = () => { return ` Прощайте` }
+const smsBye2 = () => { return `Нас покинул участник` }
+const smsBye3 = () => { return `Дай Бог здоровья 😎` }
+const smsBye4 = () => { return `покинуть группу._` }
+const smsBye5 = () => { return `Остались фанаты BTS` }
+const promote = () => { return `Поздравляем, вы теперь являетесь частью команды.🎉` }
+const demote = () => { return `Вы больше не администратор 🥲` }
 
 //mensaje el la consola inicio
 const smsConexion = () => { return `🟢 𝘜𝘚𝘜𝘈𝘙𝘐𝘖𝘚 𝘊𝘖𝘕𝘌𝘊𝘛𝘈𝘋𝘖 =>` }
