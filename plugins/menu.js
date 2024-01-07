@@ -51,7 +51,7 @@ ${lenguaje.menu.text12}
 ├❥ᰰຼ ❏ ${prefix}регистрация _(Обязательная регистрация в боте)_
 ├❥ᰰຼ ❏ ${prefix}unreg _(Удалит свой аккаунт из бота)_
 ├❥ᰰຼ ❏ ${prefix}серийник _(ваш серийный номер)_
-├❥ᰰຼ ❏ ${prefix}estado _(estado del bot)_
+├❥ᰰຼ ❏ ${prefix}инфобота _(информация о боте)_
 ├❥ᰰຼ ❏ ${prefix}menu2
 ├❥ᰰຼ ❏ ${prefix}audios 
 ├❥ᰰຼ ❏ ${prefix}nuevo _(nuevo comando)_
