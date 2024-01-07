@@ -88,7 +88,7 @@ global.db.data.users[m.sender].limit -= 2
 global.db.data.users[m.sender].exp -= 200
 m.reply(lenguaje.rpg.delreg)}
 
-if (command == 'серийник') {
+if (command == 'myns' || command == 'серийник') {
 const {createHash} = require('crypto') 
 let sn = createHash('md5').update(m.sender).digest('hex')
 conn.fakeReply(m.chat, sn, '0@s.whatsapp.net', `${lenguaje.rpg.myns2}`, 'status@broadcast')}}
