@@ -207,9 +207,9 @@ ${lenguaje.grupos.text27}
  ${listAdmin}
 
 ${lenguaje.grupos.text28}
-• Welcome: ${welcome ? '✅' : '❌'}
-• Antilink: ${antilink ? '✅' : '❌'}
-• Antifake: ${antiFake ? '✅' : '❌'}
+• Приветствие: ${welcome ? '✅' : '❌'}
+• Антиссылка: ${antilink ? '✅' : '❌'}
+• Антифейк: ${antiFake ? '✅' : '❌'}
 • Antiarabe : ${antiArabe ? '✅' : '❌'}
 • Detect: ${detect ? '✅' : '❌'}
 • Autostickers: ${autosticker ? '✅' : '❌'}

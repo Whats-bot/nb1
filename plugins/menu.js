@@ -59,60 +59,35 @@ ${lenguaje.menu.text12}
 ├❥ᰰຼ ❏ ${prefix}группы _(список групп бота и где он состоит)_
 ├❥ᰰຼ ❏ ${prefix}создатель
 ├❥ᰰຼ ❏ ${prefix}ботвгруппу
-├❥ᰰຼ ❏ ${prefix}cuenta 
-├❥ᰰຼ ❏ ${prefix}cuentaoficiales
-├❥ᰰຼ ❏ ${prefix}report _(reporta errores)_
+├❥ᰰຼ ❏ ${prefix}инфо
 ╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫
 
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐🔄ＤＥＳＣＡＲＧＡ*️⃟ᬽ፝֟━*
-├❥ᰰຼ ❏ ${prefix}play _(descargar música)_
-├❥ᰰຼ ❏ ${prefix}play2 _(Descargar video)_
-├❥ᰰຼ ❏ ${prefix}play.1 _(descargar música)_
-├❥ᰰຼ ❏ ${prefix}play.2 _(descargar video)_
-├❥ᰰຼ ❏ ${prefix}musica
-├❥ᰰຼ ❏ ${prefix}video
-├❥ᰰຼ ❏ ${prefix}playdoc
-├❥ᰰຼ ❏ ${prefix}play3 _(Descarga audio en documento)_
-├❥ᰰຼ ❏ ${prefix}play4 _(Descarga video en documento)_
-├❥ᰰຼ ❏ ${prefix}yts _(Buscador de youtube)_
-├❥ᰰຼ ❏ ${prefix}ytmp3 _(link para descargar el audio)_
-├❥ᰰຼ ❏ ${prefix}ytmp4 _(link para descargar el video)_
+*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐🔄МЕДИА ЗАГРУЗКИ*️⃟ᬽ፝֟━*
+├❥ᰰຼ ❏ ${prefix}песня исполнитель название трека _(поиск и загрузка трека)_
+├❥ᰰຼ ❏ ${prefix}pla.2  название трека_(загрузка видео)_
 ├❥ᰰຼ ❏ ${prefix}spotify
-├❥ᰰຼ ❏ ${prefix}music _(Descarga musica de Spotify)_
-├❥ᰰຼ ❏ ${prefix}gitclone _(descarga repositorio de GitHub)_
-├❥ᰰຼ ❏ ${prefix}tiktok _(descargar video de tiktok)_
-├❥ᰰຼ ❏ ${prefix}tiktokimg
-├❥ᰰຼ ❏ ${prefix}ttimg _(descarga imagen de tiktok)_
-├❥ᰰຼ ❏ ${prefix}igstalk _(nombre de un usuario de ig)_
-├❥ᰰຼ ❏ ${prefix}facebook
-├❥ᰰຼ ❏ ${prefix}fb _(Descarga videos de Facebook)_
-├❥ᰰຼ ❏ ${prefix}instagram
-├❥ᰰຼ ❏ ${prefix}ig _(Descarga videos de Instagram)_
-├❥ᰰຼ ❏ ${prefix}mediafire _(descarga archivo de mediafire)_
-├❥ᰰຼ ❏ ${prefix}gdrive _(Descarga archivos de gdrive)_
+├❥ᰰຼ ❏ ${prefix}tiktok ссылка на видео из тиктока_(скачивание видео из тикток)_
 *╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
 
 *╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*🔰 КОМАНДЫ ДЛЯ ГРУППЫ*️⃟ᬽ፝֟━*
-├❥ᰰຼ ❏ ${prefix}welcome _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antilink _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antienlace _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antifake _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antiarabe _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autosticker _(on/off)_
-├❥ᰰຼ ❏ ${prefix}detect _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autodetect _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antinsfw _(on/off)_
-├❥ᰰຼ ❏ ${prefix}modocaliente _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autosticker _(on/off)_
-├❥ᰰຼ ❏ ${prefix}modoadmin _(on/off)_
-├❥ᰰຼ ❏ ${prefix}audios _(on/off)_
-├❥ᰰຼ ❏ ${prefix}chatbot _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autolevelup _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autonivel _(on/off)_
+├❥ᰰຼ ❏ ${prefix}приветствие _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}антиссылка _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}антифейк _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}антиараб _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}автостикер _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}detect _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}autodetect _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}antinsfw _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}modocaliente _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}автостикер _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}толькоадмины _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}аудио _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}чатбот _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}autolevelup _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}автоуровень _(вкл/выкл)_
 ├❥ᰰຼ ❏ ${prefix}снести _(@номер)_
 ├❥ᰰຼ ❏ ${prefix}добавить _(номер без +)_
-├❥ᰰຼ ❏ ${prefix}invita _(@tag)_
 ├❥ᰰຼ ❏ ${prefix}promote _(@tag)_
 ├❥ᰰຼ ❏ ${prefix}demote _(@tag)_
 ├❥ᰰຼ ❏ ${prefix}infogrupo
@@ -322,12 +297,12 @@ ${lenguaje.menu.text12}
 *╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐👑ＯＷＮＥＲ*️⃟ᬽ፝֟━*
 ├❥ _(Comando exclusivo para propietario/owner del bot)_
 ├ *✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:
-├❥ᰰຼ ❏ ${prefix}anticall _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antillamada _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antipv _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antiprivado _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autoread _(on/off)_
-├❥ᰰຼ ❏ ${prefix}modojadibot _(on/off)_
+├❥ᰰຼ ❏ ${prefix}anticall _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}antillamada _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}antipv _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}antiprivado _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}autoread _(вкл/выкл)_
+├❥ᰰຼ ❏ ${prefix}modojadibot _(вкл/выкл)_
 ├❥ᰰຼ ❏ ${prefix}añadirdiamantes _(@tag)_
 ├❥ᰰຼ ❏ ${prefix}addlimit _(@tag)_
 ├❥ᰰຼ ❏ ${prefix}dardiamantes _(@tag)_
