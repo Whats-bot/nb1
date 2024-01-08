@@ -88,8 +88,8 @@ ${lenguaje.menu.text12}
 ├❥ᰰຼ ❏ ${prefix}автоуровень _(вкл/выкл)_
 ├❥ᰰຼ ❏ ${prefix}снести _(@номер)_
 ├❥ᰰຼ ❏ ${prefix}добавить _(номер без +)_
-├❥ᰰຼ ❏ ${prefix}promote _(@tag)_
-├❥ᰰຼ ❏ ${prefix}demote _(@tag)_
+├❥ᰰຼ ❏ ${prefix}датьадмина _(@номер)_
+├❥ᰰຼ ❏ ${prefix}снятьадмина _(@номер)_
 ├❥ᰰຼ ❏ ${prefix}infogrupo
 ├❥ᰰຼ ❏ ${prefix}groupinfo
 ├❥ᰰຼ ❏ ${prefix}admins _(llama a los admins)_

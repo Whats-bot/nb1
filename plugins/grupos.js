@@ -127,7 +127,7 @@ const user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender;
 const owr = m.chat.split`-`[0];
 await conn.groupParticipantsUpdate(m.chat, [user], 'remove')}
 
-if (command == 'promote' || command == 'darpoder') {
+if (command == 'promote' || command == 'дать админа') {
 if (!m.isGroup) return m.reply(info.group) 
 if (!isBotAdmins) return m.reply(info.botAdmin)
 if (!isGroupAdmins) return m.reply(info.admin)
@@ -135,7 +135,7 @@ if (!m.mentionedJid[0] && !m.quoted) return m.reply(lenguaje.grupos.text17)
 let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 await conn.groupParticipantsUpdate(m.chat, [users], 'promote').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))}
 
-if (command == 'demote' || command == 'quitarpoder') {
+if (command == 'demote' || command == 'снятьадмина') {
 if (!m.isGroup) return m.reply(info.group) 
 if (!isBotAdmins) return m.reply(info.botAdmin)
 if (!isGroupAdmins) return m.reply(info.admin)
@@ -183,7 +183,7 @@ const oi = `${lenguaje.grupos.text21} ${pesan}`;
 const text = `═✪〘 *ВНИМАНИЕ АДМИНЫ* 〙✪═\n\n• *ГРУППА:* [ ${groupMetadata.subject} ]\n\n• ${oi}\n\n• *Список админов:*\n➥ ${listAdmin}\n\n${lenguaje.grupos.text22}`.trim(); 
 conn.sendMessage(m.chat, { text: text, mentions: participants.map(a => a.id) }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
-if (command == 'infogrupo' || command == 'groupinfo') {
+if (command == 'infogrupo' || command == 'byajuheggs') {
 if (!m.isGroup) return m.reply(info.group);  
 const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => null) || './src/avatar_contact.png';
 const {welcome, antilink, antiFake, antiArabe, detect, autosticker, antiNsfw, modeadmin} = global.db.data.chats[m.chat];
@@ -210,11 +210,11 @@ ${lenguaje.grupos.text28}
 • Приветствие: ${welcome ? '✅' : '❌'}
 • Антиссылка: ${antilink ? '✅' : '❌'}
 • Антифейк: ${antiFake ? '✅' : '❌'}
-• Antiarabe : ${antiArabe ? '✅' : '❌'}
-• Detect: ${detect ? '✅' : '❌'}
-• Autostickers: ${autosticker ? '✅' : '❌'}
+• Антиараб : ${antiArabe ? '✅' : '❌'}
+• Изменения: ${detect ? '✅' : '❌'}
+• Автостикер: ${autosticker ? '✅' : '❌'}
 • modocaliente: ${antiNsfw ? '✅' : '❌'}
-• modoadmins: ${modeadmin ? '✅' : '❌'}
+• Только админы: ${modeadmin ? '✅' : '❌'}
 
 ${lenguaje.grupos.text29}
 • ${groupMetadata.desc?.toString() || 'desconocido'}`.trim();
