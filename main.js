@@ -205,7 +205,7 @@ const groupAdmins = participants.filter((p) => p.admin);
 const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).join('\n➥ ');
 let delet = m.key.participant
 let bang = m.key.id
-user = m.sender
+let user = m.sender
 conn.sendMessage(m.chat, {text: `${lenguaje['smsAntiLink']()} @${user.split("@")[0]} ${lenguaje['smsAntiLink2']()}`, mentions: [user], },{quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (!isBotAdmins) return conn.sendMessage(m.chat, { text: `${lenguaje['smsAntiLink3']()}\n${listAdmin}\n\n${lenguaje['smsAntiLink4']()}`, mentions: participants.map(a => a.id) }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})  
 let gclink = (`https://chat.whatsapp.com/`+await conn.groupInviteCode(m.chat))
