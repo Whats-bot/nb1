@@ -337,7 +337,7 @@ break
 //Info
 case 'menu': case 'help': case 'меню': case 'menu2': case 'audio': case 'nuevo': case 'чтонового': case 'reglas': case 'правилабота': menu(m, command, conn, prefix, pushname, sender, pickRandom, fkontak) 
 break  
-case 'estado': case 'инфобота': case 'owner': case 'создатель': case 'contacto': case 'grupos': case 'группы': case 'скриптбота': case 'crearbot': case 'ping': case '5492266613038': case '593980586516': case '595975740803': case 'report': case 'исходник': case 'donar': case 'solicitud': case 'cuenta': case 'cuentaoficiales': case 'cuentaofc': info(command, conn, m, speed, sender, fkontak, pickRandom, pushname, from, msg, text) 
+case 'estado': case 'инфобота': case 'owner': case 'создатель': case 'contacto': case 'grupos': case 'группы': case 'скриптбота': case 'crearbot': case 'ping': case '5492266613038': case '593980586516': case '595975740803': case 'report': case 'исходник': case 'donar': case 'solicitud': case 'ботвгруппу': case 'cuenta': case 'cuentaoficiales': case 'cuentaofc': info(command, conn, m, speed, sender, fkontak, pickRandom, pushname, from, msg, text) 
 break 
   
 //activar/desactivar
@@ -345,7 +345,7 @@ case 'welcome': case 'bienvenida': case 'antilink': case 'antienlace': case 'ant
 break
 
 //Grupos 
-case 'grupo': case 'delete': case 'del': case 'join': case 'unete': case 'hidetag': case 'notificar': case 'tag': case 'setppgroup': case 'setpp': case 'setppname': case 'nuevonombre': case 'newnombre': case 'setdesc': case 'descripción': case 'anularlink': case 'resetlink': case 'revoke': case 'add': case 'добавить': case 'invitar': case 'kick': case 'echar': case 'sacar': case 'promote': case 'darpoder': case 'demote': case 'quitarpoder': case 'link': case 'linkgc': case 'banchat': case 'внимание': case 'invocar': case 'todos': case 'админы': case 'administradores': case 'infogrupo': case 'groupinfo': case 'warn': case 'advertencia': case 'unwarn': case 'quitardvertencia': case 'listwarn': case 'enline': case 'online': case 'listonine': case 'listaenlinea': case 'enlinea': case 'listonline': grupo(m, command, isGroupAdmins, text, conn, participants, isBotAdmins, args, isCreator, delay, sender, quoted, mime, from, isCreator, groupMetadata, fkontak, delay) 
+case 'grupo': case 'delete': case 'del': case 'join': case 'ботавгруппу': case 'hidetag': case 'notificar': case 'tag': case 'setppgroup': case 'setpp': case 'setppname': case 'nuevonombre': case 'newnombre': case 'setdesc': case 'descripción': case 'anularlink': case 'resetlink': case 'revoke': case 'add': case 'добавить': case 'invitar': case 'kick': case 'echar': case 'sacar': case 'promote': case 'darpoder': case 'demote': case 'quitarpoder': case 'link': case 'linkgc': case 'banchat': case 'внимание': case 'invocar': case 'todos': case 'админы': case 'administradores': case 'infogrupo': case 'groupinfo': case 'warn': case 'advertencia': case 'unwarn': case 'quitardvertencia': case 'listwarn': case 'enline': case 'online': case 'listonine': case 'listaenlinea': case 'enlinea': case 'listonline': grupo(m, command, isGroupAdmins, text, conn, participants, isBotAdmins, args, isCreator, delay, sender, quoted, mime, from, isCreator, groupMetadata, fkontak, delay) 
 break    
 
 //juegos 

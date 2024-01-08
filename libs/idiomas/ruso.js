@@ -491,7 +491,7 @@ level7: `*💫 Чем больше вы взаимодействуете с бо
  
 //sticker.js
 const sticker = {
-text: `⏳ *Подожди, я делаю твою наклейку....*`, 
+text: `⏳ *Подожди, я делаю твой стикер....*`, 
 text1: `_[ ❌ ] Максимум 20 секунд!_`, 
 text2: `*И ФОТО?*`, 
 text3: `*Ответная наклейка, чтобы украсть`, 
@@ -512,16 +512,13 @@ const smsReg7 = (name, user, age, time, date, sender, sn, prefix, rtotalreg) => 
  ${prefix}menu\n\n ◉ *Всего зарегистрированных пользователей:* ${rtotalreg}` }
 const smsReg8 = () => { return `*💬 Выберите язык бота с помощью:* #язык` }
  
-const cuenta = (nna, md, yt, tiktok, fb) => { return `*Добро пожаловать на официальные аккаунты ✨*
+const cuenta = (nna, md, yt, tiktok, fb) => { return `*Добро пожаловать в мои официальные аккаунты ✨*
 
-*👑 Официальный номер бота:*
+*👑 Официальный номер создателя:*
 • wa.me/79524197466
 
-*✨ Канал WhatsApp / Обновление:*
+*✨ Группа WhatsApp:*
 • ${nna}
-
-*✨ ГИТХАБ:*
-• ${md}
 
 *✨ YOUTUBE:*
 • ${yt}
@@ -532,6 +529,6 @@ const cuenta = (nna, md, yt, tiktok, fb) => { return `*Добро пожалов
 *✨ ФЕЙСБУК:*
 • ${fb}
 
-*Если у вас есть сомнения, предложения или вопросы, вы можете написать мне на Facebook.*` }
+*Если у вас есть пожелания, предложения или вопросы, вы можете написать мне в Ватсап.*` }
 
 module.exports = { lenguaje, exito, tmp, session, errorsession, archivo, AvisoMG, archborrado, archivoborrado, purgesessions, purgesubbots, purgeoldfiles, smscall, smscall2, smsAvisos, smsAvisos2, smsAvisos3, smsAvisos4, smsAvisos5, smsAvisos6, smsAvisos7, smsAvisos8, smsAvisos9, smsWel, smsWel2, smsWel3, smsWel4, smsWel5, smsWel6, smsWel7, smsWel8, smsWel9, smsWel10, smsWel11, smsBye, smsBye2, smsBye3, smsBye4, smsBye5, smsConexion, smsEscaneaQR, smsConectado, smsConexioncerrar, nivel, nivel2, admin, botAdmin, propietario, group, private, bot, error, advertencia, registra, limit, AntiNsfw, endLimit, result, lengua, sms, Bio, smsAntiFake, smsAntiArabe, smsAntiLink, smsAntiLink2, smsAntiLink3, smsAntiLink4, smsAntiLink5, smsAutoSicker, smsAutonivel, smsAutonivel2, smsAutonivel3, smsAutonivel4, smsAutonivel5, smsAutonivel6, smsAutonivel7, smsAutonivel8, smsAutonivel9, smsAntiPv, info, menu, jadibot, descargar, demote, promote, enable, grupos, juegos, nsfw, owner, ramdow, rpg, sticker, idioma, idioma2, smsReg, smsReg1, smsReg2, smsReg3, smsReg4, smsReg5, smsReg6, smsReg7, smsReg8, cuenta}

@@ -56,12 +56,9 @@ ${lenguaje.menu.text12}
 ├❥ᰰຼ ❏ ${prefix}audios 
 ├❥ᰰຼ ❏ ${prefix}чтонового _(узнать что нового в боте )_
 ├❥ᰰຼ ❏ ${prefix}правилабота _(информация об использовании бота)_
-├❥ᰰຼ ❏ ${prefix}ping _(Velocidad)_
-├❥ᰰຼ ❏ ${prefix}grupos _(grupos oficiales)_
-├❥ᰰຼ ❏ ${prefix}join _(solicita un bot para tu grupo)_
+├❥ᰰຼ ❏ ${prefix}группы _(список групп бота и где он состоит)_
 ├❥ᰰຼ ❏ ${prefix}создатель
-├❥ᰰຼ ❏ ${prefix}instalarbot (Tutorial del instalacion)_
-├❥ᰰຼ ❏ ${prefix}solicitud
+├❥ᰰຼ ❏ ${prefix}ботвгруппу
 ├❥ᰰຼ ❏ ${prefix}cuenta 
 ├❥ᰰຼ ❏ ${prefix}cuentaoficiales
 ├❥ᰰຼ ❏ ${prefix}report _(reporta errores)_

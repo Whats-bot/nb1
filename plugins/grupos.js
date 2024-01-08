@@ -44,12 +44,12 @@ let bang = m.message.extendedTextMessage.contextInfo.stanzaId
 return conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
 }
   
-if (command == 'join' || command == 'unete') {
+if (command == 'join' || command == 'ботавгруппу') {
 let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
 let link = (m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text
 let [_, code] = link.match(linkRegex) || []
 if (global.db.data.users[m.sender].registered < true) return m.reply(info.registra)
-if (!code) return m.reply(`${lenguaje.grupos.text3}\n*#join ${nn}*`) 
+if (!code) return m.reply(`${lenguaje.grupos.text3}\n*#ботавгруппу ${nn}*`) 
 if ( isCreator || m.fromMe) {
 m.reply(lenguaje.grupos.text4)
 await delay(3 * 3000)

@@ -88,7 +88,7 @@ if (command == 'donar') {
 conn.sendMessage(m.chat, { text: lenguaje.info.text23, contextInfo:{mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "body": `ayuda a mantener el bot activo`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: md}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 m.reply(`${lenguaje.info.text24}\n${md}`)}
 
-if (command == 'solicitud') {
+if (command == 'solicitud' || command == 'ботвгруппу') {
 conn.sendMessage(m.chat, { text: lenguaje.grupos.text8, contextInfo:{mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
 if (command == 'cuenta' || command == 'cuentaofc' || command == 'cuentaoficiales') {
