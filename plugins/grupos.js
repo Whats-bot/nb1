@@ -183,7 +183,7 @@ const oi = `${lenguaje.grupos.text21} ${pesan}`;
 const text = `═✪〘 *ВНИМАНИЕ АДМИНЫ* 〙✪═\n\n• *ГРУППА:* [ ${groupMetadata.subject} ]\n\n• ${oi}\n\n• *Список админов:*\n➥ ${listAdmin}\n\n${lenguaje.grupos.text22}`.trim(); 
 conn.sendMessage(m.chat, { text: text, mentions: participants.map(a => a.id) }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
-if (command == 'infogrupo' || command == 'byajuheggs') {
+if (command == 'infogrupo' || command == 'инфогруппы') {
 if (!m.isGroup) return m.reply(info.group);  
 const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => null) || './src/avatar_contact.png';
 const {welcome, antilink, antiFake, antiArabe, detect, autosticker, antiNsfw, modeadmin} = global.db.data.chats[m.chat];
