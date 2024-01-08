@@ -90,7 +90,7 @@ ${lenguaje.menu.text12}
 ├❥ᰰຼ ❏ ${prefix}добавить _(номер без +)_
 ├❥ᰰຼ ❏ ${prefix}датьадмина _(@номер)_
 ├❥ᰰຼ ❏ ${prefix}снятьадмина _(@номер)_
-├❥ᰰຼ ❏ ${prefix}infogrupo
+├❥ᰰຼ ❏ ${prefix}инфогруппы
 ├❥ᰰຼ ❏ ${prefix}groupinfo
 ├❥ᰰຼ ❏ ${prefix}admins _(llama a los admins)_
 ├❥ᰰຼ ❏ ${prefix}grupo close/open 
