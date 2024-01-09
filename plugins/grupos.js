@@ -203,7 +203,7 @@ ${lenguaje.grupos.text25}
 ${lenguaje.grupos.text27}
 • @${owner.split('@')[0]}
 
-*🔸️ ᴀᴅᴍɪɴs:*
+*🔸️ АДМИНЫ:*
  ${listAdmin}
 
 ${lenguaje.grupos.text28}
