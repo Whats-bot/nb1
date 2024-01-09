@@ -91,8 +91,7 @@ ${lenguaje.menu.text12}
 ├❥ᰰຼ ❏ ${prefix}датьадмина _(@номер)_
 ├❥ᰰຼ ❏ ${prefix}снятьадмина _(@номер)_
 ├❥ᰰຼ ❏ ${prefix}инфогруппы
-├❥ᰰຼ ❏ ${prefix}groupinfo
-├❥ᰰຼ ❏ ${prefix}admins _(llama a los admins)_
+├❥ᰰຼ ❏ ${prefix}админы  _(llama a los admins)_
 ├❥ᰰຼ ❏ ${prefix}grupo close/open 
 ├❥ᰰຼ ❏ ${prefix}warn _(@tag)_
 ├❥ᰰຼ ❏ ${prefix}advertencia _(@tag)_
