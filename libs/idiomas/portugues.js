@@ -1,597 +1,534 @@
 const lenguaje = () => { return 'pt' } //portugués
 
 //index.js
-const tmp = () => { return `╭━─━─━─≪🔆≫─━─━─━╮\n│ A PASTA TMP FOI LIMPA CORRETAMENTE\n╰━─━─━─≪🔆≫─━─━─━╯` } 
-const session = () => { return `🟢 NÃO HÁ ARQUIVO PARA EXCLUIR` }
-const errorsession = () => { return `🟢 ALGO DEU ERRADO DURANTE A EXCLUSÃO, ARQUIVO NÃO EXCLUÍDO` }
-const archivo = () => { return `🟢 ARQUIVO` }
-const archborrado = () => { return `EXCLUÍDO COM SUCESSO` }
-const archivoborrado = () => { return `NÃO EXCLUÍDO` }
-const purgesessions = () => { return `╭━─━─━─≪🔆≫─━─━─━╮\n│AUTOPURGESESSIONS\n│ ARQUIVOS EXCLUÍDOS ✅\n╰━─━─━─≪🔆≫─━─━─━╯` }
-const purgesubbots  = () => { return `╭━─━─━─≪🔆≫─━─━─━╮\n│AUTO_PURGE_SESSIONS_SUB-BOTS\n│ ARQUIVOS EXCLUÍDOS ✅\n╰━─━─━─≪🔆≫─━─━─━╯` }
-const purgeoldfiles = () => { return `╭━─━─━─≪🔆≫─━─━─━╮\n│AUTO_PURGE_OLDFILES\n│ARQUIVOS EXCLUÍDOS ✅\n╰━─━─━─≪🔆≫─━─━─━╯` }
+const tmp = () => { return `╭━─━─━─≪🔆≫─━─━─━╮\n│ ПАПКА TMP БЫЛА ОЧИЩЕНА ПРАВИЛЬНО\n╰━─━─━─≪🔆≫─━─━─━╯` } 
+const session = () => { return `🟢 НЕТ ФАЙЛА ДЛЯ УДАЛЕНИЯ` }
+const errorsession = () => { return `🟢 ЧТО-ТО ПОШЛО НЕ ТАК ВО ВРЕМЯ УДАЛЕНИЯ, ФАЙЛ НЕ УДАЛЕН.` }
+const archivo = () => { return `🟢 АРХИВ` }
+const archborrado = () => { return ` УСПЕШНО УДАЛЕНО` } 
+const archivoborrado = () => { return ` НЕ УДАЛЕНО` }
+const purgesessions = () => { return `╭━─━─━─≪🔆≫─━─━─━╮\n│ АУТООЧИСТИТЕЛЬНЫЕ СЕССИИ\n│ УДАЛЕННЫЕ ФАЙЛЫ ✅\n╰━─━─━─≪🔆≫─━─━─━╯` }
+const purgesubbots  = () => { return `╭━─━─━─≪🔆≫─━─━─━╮\n│AUTO_PURGE_SESSIONS_SUB-BOTS\n│ УДАЛЕННЫЕ ФАЙЛЫ ✅\n╰━─━─━─≪🔆≫─━─━─━╯` }
+const purgeoldfiles = () => { return `╭━─━─━─≪🔆≫─━─━─━╮\n│AUTO_PURGE_OLDFILES\n│ УДАЛЕННЫЕ ФАЙЛЫ ✅\n╰━─━─━─≪🔆≫─━─━─━╯` }
 
 //call
-const smscall = () => { return `Você será bloqueado*\n_Motivo: por fazer uma` } 
-const smscall2 = () => { return `*Se você ligou acidentalmente, entre em contato com meu criador para desbloquear você.*` }
+const smscall = () => { return `Вы будете заблокированы*\n_Причина: за создание` }
+const smscall2 = () => { return `*Если вы случайно позвонили, свяжитесь с моим создателем, чтобы разблокировать вас.*` }
 
 //antiprivado
-const smsAntiPv = () => { return `É proibido falar em particular sobre o bot pelo qual você será bloqueado.*\n*Para usar o bot entre no grupo do oficial` }
+const smsAntiPv = () => { return `В личных сообщениях бота запрещено рассказывать о том, через что бот будет вступать в группу бота.*` } 
 
 //detec
-const smsAvisos = () => { return `[ 🔒 GRUPO FECHADO ]` }//
-const smsAvisos2 = () => { return `「 CONFIGURAÇÃO DE GRUPO 」\n\n*Agora apenas administradores podem escrever no grupo*` }
-const smsAvisos3 = () => { return `[ 🔓 ABRIR GRUPO ]` } 
-const smsAvisos4 = () => { return `「 CONFIGURAÇÃO DE GRUPO  」\n\n*Agora todos os participantes enviam mensagens 🗣️*` } 
-const smsAvisos5 = () => { return `「 CONFIGURAÇÃO DE GRUPO 」\n\n` }
-const smsAvisos6 = () => { return `*Agora apenas administradores podem editar as configurações do grupo*` } 
-const smsAvisos7 = () => { return `Agora todos os participantes podem editar as configurações do grupo` }
-const smsAvisos8 = () => { return `A descrição do grupo foi alterada e a nova descrição é:` }
-const smsAvisos9 = () => { return `*O nome do grupo foi alterado e o novo nome é:*` }
+const smsAvisos = () => { return `[ 🔒 ЗАКРЫТАЯ ГРУППА ]` }  
+const smsAvisos2 = () => { return `「 НАСТРОЙКИ ГРУППЫ」\n\n*Теперь только админы могут писать группы*` } 
+const smsAvisos3 = () => { return `[ 🔓 ОТКРЫТЫЕ ГРУППЫ ]` }
+const smsAvisos4 = () => { return `「 НАСТРОЙКИ ГРУППЫ」\n\n*Теперь все участники могут отправлять сообщения 🗣️*` } 
+const smsAvisos5 = () => { return `「 НАСТРОЙКИ ГРУППЫ」\n\n` } 
+const smsAvisos6 = () => { return `*Теперь только администраторы могут редактировать настройки группы.*` } 
+const smsAvisos7 = () => { return `Теперь все участники могут редактировать настройки группы.` } 
+const smsAvisos8 = () => { return `Описание группы изменено, новое описание` }  
+const smsAvisos9 = () => { return `*Имя группы изменено на новое имя*` }
 
 //welcome
-const smsWel =  () => { return `Hora` }
-const smsWel2 = () => { return `¿COMO VAI? 😃` }
-const smsWel3 = () => { return `¿COMO VAI?😃\n\n『 Bem-vindo a` }  
-const smsWel4 = () => { return `Prazer em conhecê-lo amigo 🤗\n\n_Lembre-se de ler as regras do grupo para não ter problemas 🧐_\n\n*Apenas curta esse grupo e divirta-se 🥳*` }
-const smsWel5 = () => { return `[ NOVO MEMBRO ]\n\n` }
-const smsWel6 = () => { return `Damos as boas-vindas a você` }
-const smsWel7 = () => { return `⪨────[ ＷＥＬＣＯＭＥ ]────⪩\n\n` }
-const smsWel8 = () => { return `💫 *bem-vindo a :*` }
-const smsWel9 = () => { return `💫 *Participe*` }
-const smsWel10 = () => { return `💫 *Data*` }
-const smsWel11 = () => { return `📢 *Leia a descrição* 📢\n` }
-const smsBye = () => { return `Adeus` }
-const smsBye2 = () => { return `Bem, se foi` }
-const smsBye3 = () => { return `Que Deus te abençoe 😎` }
-const smsBye4 = () => { return `deixou o grupo._` }
-const smsBye5 = () => { return `se foi\n┃ fã de bts` }
-const promote = () => { return `Parabéns, agora você faz parte da equipe. 🎉` }
-const demote = () => { return `você não é mais administrador 🥲` }
+const smsWel =  () => { return ` Привет` }
+const smsWel2 = () => { return `¿ КАК ВЫ? 😃` }
+const smsWel3 = () => { return `¿ КАК ВЫ?😃\n\n『 Добро пожаловать в` }
+const smsWel4 = () => { return `Приятно познакомиться с друзьями 🤗\n\n_Не забудьте прочитать правила группы, чтобы не попасть в неприятности 🧐_\n\n*Просто наслаждайтесь группой и получайте удовольствие 🥳*` }
+const smsWel5 = () => { return `[ НОВЫЕ УЧАСТНИКИ ]\n\n` }
+const smsWel6 = () => { return `Мы приветствуем вас` }  
+const smsWel7 = () => { return `⪨────[ ДОБРО ПОЖАЛОВАТЬ ]────⪩\n\n` } 
+const smsWel8 = () => { return `💫 *Добро пожаловать в :*` }
+const smsWel9 = () => { return `💫 *Участников*` }
+const smsWel10 = () => { return `💫 *Дата*` }
+const smsWel11 = () => { return `📢 *Прочитайте описание* 📢\n` }
+const smsBye = () => { return ` Прощайте` }
+const smsBye2 = () => { return `Нас покинул участник` }
+const smsBye3 = () => { return `Дай Бог здоровья 😎` }
+const smsBye4 = () => { return `покинуть группу._` }
+const smsBye5 = () => { return `Остались фанаты BTS` }
+const promote = () => { return `Поздравляем, вы теперь являетесь частью команды.🎉` }
+const demote = () => { return `Вы больше не администратор 🥲` }
 
 //mensaje el la consola inicio
-const smsConexion = () => { return `🟢 USUÁRIOS CONECTADOS =>` }
-const smsEscaneaQR = () => { return `VERIFIQUE O QR, EXPIRE 45 SEG...` }
-const smsConectado = () => { return `JÁ ESTÁ CONECTADO CORRETAMENTE` }
-const smsConexioncerrar = () => { return `⚠️ CONEXÃO FECHADA, TENTATIVA DE RECONECTAR` }
- 
+const smsConexion = () => { return `🟢 ПОЛЬЗОВАТЕЛИ ПОДКЛЮЧАЮТСЯ =>` }  
+const smsEscaneaQR = () => { return ` СКАНИРОВАНИЕ QR, СРОК ДЕЙСТВИЯ 45 СЕКУНД...` }
+const smsConectado = () => { return ` ОНО ПОДКЛЮЧЕНО ПРАВИЛЬНО` }
+const smsConexioncerrar = () => { return `⚠️ СОЕДИНЕНИЕ ЗАКРЫТО, ПОПЫТКА ВОССТАНОВИТЬСЯ` }
+
 //autobio
 const Bio = { 
-text: `🦁 ɴᴏᴠᴀʙᴏᴛ - Ter:`, 
-text2: `Os usuários que me usam podem responder lentamente, minha velocidade de resposta é:`,
-text3: `👑 ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ | Ativo ✅️:`, 
-text4: `Para cronometrar minha lista de comandos, use #menu`, 
-text5: `ɴᴏᴠᴀʙᴏᴛ ᴘᴏʀ ʟᴏʟɪʙᴏᴛ - Inscreva-se em nosso canal no YouTube 🔔\nhttps://www.youtube.com/@elrebelde.21`, 
-text6: `✅ Atividade:`, 
-text7: `👥 Usuários:` }
+text: `🦁 ɴᴏᴠᴀʙᴏᴛ - Уже:`,  
+text2: `Пользователи используют меня, я могу отвечать медленно, моя скорость:`,
+text3: `👑 ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ | Ресурсы ✅️:`,   
+text4: `Чтобы установить время, используйте мой список команд #menu`,  
+text5: `ɴᴏᴠᴀʙᴏᴛ К ʟᴏʟɪʙᴏᴛ - Подпишитесь на наш YouTube-канал 🔔\nhttps://www.youtube.com/@elrebelde.21`, 
+text6: `✅ Активность:`, 
+text7: `👥 Пользователь:` }
 
 //antiarabe
-const smsAntiFake = () => { return `✳️ Este grupo não é permitido, número falso será expulso...` }
-const smsAntiArabe = () => { return `✳️ Neste grupo, os números arábicos não são permitidos até a próxima vez....` }
+const smsAntiFake = () => { return `✳️ В эту группу вход запрещен. Будут выданы поддельные номера....` }
+const smsAntiArabe = () => { return `✳️ В этой группе арабские цифры не допускаются до более позднего времени.....` }
 
 //antilink
-const smsAntiLink = () => { return `\`\`\`「 ANTILINK DETECTADO 」\`\`\`\n\n` }
-const smsAntiLink2 = () => { return `🤨 Isso não é permitido rato, você será expulso do grupo....` }
-const smsAntiLink3 = () => { return `Salve sua merda, não sou administrador 🙄\n\n*[LIGUE PARA OS ADMINS ]*` }
-const smsAntiLink4 = () => { return `O bot precisa de administradores para eliminar esse rato sujo` }
-const smsAntiLink5 = () => { return `Eu vou te salvar porque você é um administrador :v` }
+const smsAntiLink = () => { return `\`\`\`「 ОБНАРУЖЕНА АНТИССЫЛКА 」\`\`\`\n\n` }
+const smsAntiLink2 = () => { return `🤨 Запрещено крысам, вас исключат из группы.....` }
+const smsAntiLink3 = () => { return `Поздравляю, я не админ 🙄\n\n*[ ЗВОНИТЕ АДМИНУ ]*` }
+const smsAntiLink4 = () => { return `Боту нужен админ, чтобы избавиться от этих грязных крыс` } 
+const smsAntiLink5 = () => { return `Я тебя спасу, потому что ты админ :v` } 
 
 //autosticker
-const smsAutoSicker = () => { return `🤡 Ei, onde diabos você viu um pedaço de pau que dura tanto, estúpido 🤣. (Máximo 15 segundos)` }
+const smsAutoSicker = () => { return `🤡 Эй, где ты видел такую ​​долговечную палку, дура🤣. (Максимум 15 секунд)` }
 
 //autonivel
-const smsAutonivel = () => { return `*「 FELICIDADES LEVEL UP 🆙🥳 」*\n\n🥳 Felicidades` }
-const smsAutonivel2 = () => { return `👏 Você subiu de nível, continue assim 👏\n` }
-const smsAutonivel3 = () => { return `*❐ NÍVEL :*` }
-const smsAutonivel4 = () => { return `*❐ NÍVEL ANTERIOR :* ` }
-const smsAutonivel5 = () => { return `*❐ NÍVEL ATUAL :*` }
-const smsAutonivel6 = () => { return `*❐ FAIXA :*` }
-const smsAutonivel7 = () => { return `*❐ DATA :*` }
-const smsAutonivel8 = () => { return `_*Para saber qual é a sua porta superior, digite o comando #lb*_` }
-const smsAutonivel9 = () => { return `*🥳 PARABÉNS POR ALCANÇAR UM NOVO NÍVEL 🎊*\n\n` }
+const smsAutonivel = () => { return `*「 ПОДНЯТЬ УРОВЕНЬ СЧАСТЬЯ 🆙🥳 」*\n\n🥳 Ваше здоровье` }
+const smsAutonivel2 = () => { return `👏 Ты повышаешь уровень, продолжай в том же духе 👏\n` }
+const smsAutonivel3 = () => { return `*❐ УРОВЕНЬ :*` }
+const smsAutonivel4 = () => { return `*❐ ПРЕДЫДУЩИЙ УРОВЕНЬ :* ` }
+const smsAutonivel5 = () => { return `*❐ ТЕКУЩИЙ УРОВЕНЬ :*` }
+const smsAutonivel6 = () => { return `*❐ ДОСТИГАТЬ :*` }
+const smsAutonivel7 = () => { return `*❐ ДАТА :*` }
+const smsAutonivel8 = () => { return `_*Чтобы узнать ваш верхний порт, введите команду #lb*_` }
+const smsAutonivel9 = () => { return `*🥳 ПОЗДРАВЛЯЕМ С ДОСТИЖЕНИЕМ НОВЫХ УРОВНЕЙ 🎊*\n\n` }
 
 //info
-const nivel = () => { return `[ ❇️ ] Preciso do nível` }
-const nivel2 = () => { return `Para poder usar este comando verifique seu nível atual com o comando` }
-const admin = () => { return `*⚠️ Vocês não são administradores 🤡 apenas administradores podem usar este comando*` }
-const botAdmin = () => { return `*⚠️ Ei, primeiro o bot, quero dizer (eu), preciso ser um administrador para usar este comando*` }
-const propietario = () => { return `*⚠️ Quem diabos é você? somente meu chefe pode usar este comando*` }
-const group = () => { return `*⚠️ Idiota, esse comando só pode ser usado pelo grupo*` }
-const private = () => { return `*⚠️ Este comando só pode ser usado em chat privado*` }
-const bot = () => { return `*⚠️ Este comando só pode ser usado por (ME)*` }
-const error = () => { return `⪨╼╼≪⚠️ ERRO ⚠️≫╾╼⪩\n\nOCORREU DE ERRO INESPERADO, (API DOWN 😢)` }
-const AvisoMG = () => { return `⪨╼╼≪⚠️ AÇÃO MAL UTILIZADA ⚠️≫╾╼⪩\n\n` }
-const advertencia = () => { return `[ ⚠️ AVISO ]` }
-const registra = () => { return `*[ 🔴 Ei, pare, você não está cadastrado 🔴 ]*\n\nVOCÊ NÃO APARECE NO MEU BANCO DE DADOS ✋\n\nPara poder usar o bot você precisa estar cadastrado:\n\n#reg name.age` }
-const limit = () => { return `*ᴅɪᴀᴍᴀɴᴛᴇ 💎 ᴜsᴀᴅᴏ*` }
-const AntiNsfw = () => { return `*O comando +18 está desativado*\nSe você é um administrador e deseja ativá-los, use:\n• modocaliente on` }
-const endLimit = () => { return `*😢 NÃO TEM MAIS DIAMANTE 💎*\n\nVocê pode comprar mais usando o comando: #buy` }
-const exito = () => { return `*BEM-SUCEDIDO ✅*` }
-const result = () => { return `*resultados de :*` }
+const nivel = () => { return `[ ❇️ ] Нужен уровень` }
+const nivel2 = () => { return `Чтобы иметь возможность использовать эту команду, проверьте свой уровень с помощью команды` }   
+const admin = () => { return `*⚠️ Вы не администратор 🤡 Эту команду могут использовать только администраторы*` }
+const botAdmin = () => { return `*⚠️ Привет, в первую очередь я имею в виду бота (себя), мне нужно быть администратором, чтобы использовать эту команду*` }
+const propietario = () => { return `*⚠️ Кто ты? только мой босс может использовать эту команду*` }
+const group = () => { return `*⚠️ Черт, эту команду можно использовать только группами.*` }
+const private = () => { return `*⚠️ Эту команду можно использовать только в приватных чатах.*` }
+const bot = () => { return `*⚠️ Эту команду может использовать только (ME)*` }
+const error = () => { return `⪨╼╼≪⚠️ ОШИБКА ⚠️≫╾╼⪩\n\n ПРОИЗОШЛА НЕОЖИДАННАЯ ОШИБКА (ВЫКЛЮЧЕНИЕ 😢)` }
+const AvisoMG = () => { return `⪨╼╼≪⚠️ СИСТЕМНЫЕ НАСТРОЙКИ ⚠️≫╾╼⪩\n\n` }
+const advertencia = () => { return `[ ⚠️ ПРЕДУПРЕЖДЕНИЕ ]` } 
+const registra = () => { return `*[ 🔴 ЭЙ, СТОП, ВЫ НЕ ЗАРЕГИСТРИРОВАНЫ 🔴 ]*\n\nВАС НЕТ В МОЕЙ БАЗЕ ДАННЫХ ✋\n\nЧто-бы начать пользоваться ботом, необходимо пройти обязательную регистрацию!!!:\n\nДля этого введите комманду \n\n#reg ник.возраст` } 
+const limit = () => { return `*Бриллиантов 💎 использовано*` } 
+const AntiNsfw = () => { return `*Команда 18 отключена*\nЕсли вы администратор и хотите включить ее, используйте:\n• modocaliente on` }
+const endLimit = () => { return `*😢 НЕТ БОЛЬШЕ АЛМАЗОВ 💎*\n\nКупить больше можно с помощью команды: #buy` } 
+const exito = () => { return `*УСПЕХ ✅*` }
+const result = () => { return `*Результат :*` }
 
 //Buscadores
 const lengua = { 
-ejem: `Exemplo :`, 
-ejemplo: `*O que é este mecanismo de pesquisa?\n*Exemplo:*`, 
-opcion: `OPÇÃO :`, 
-tipo: ` TIPO :`, 
-id: ` ID DO VÍDEO :`, 
-titulo: `TITULO :`, 
-Peso: `*PESO :*`, 
-artista: `𝘈𝘙𝘛𝘐𝘚𝘛𝘈`, 
-album: `𝘈𝘓𝘉𝘜𝘔`, 
-vista: `VISUALIZAÇÕES :`, 
-publi: `𝘗𝘜𝘉𝘓𝘐𝘊𝘈𝘋𝘖`, 
-dura: `DURACIÓN :`, 
-subidos: `CARREGADO :`, 
-calidad: `QUALIDADE :`, 
-desc: `DESCRIÇÃO :`, 
-text: ` Insira um link para encurtar!`, 
-trad: `🔸 Tradução`, 
-text2: `*E O TEXTO?*`, 
-ia: `*⚠️ DIGITE O TEXTO DE QUEM QUER PESQUISAR?*\n\n*• EXEMPLO :*\n`, 
-ia2: `*⚠️ DIGITE O TEXTO PARA CRIAR UMA IMAGEM PARA USAR A FUNÇÃO DALL-E*\n\n*• EXEMPLO:*\n`,
-espere: `⏳ *Aguarde un momento....*`, 
-aguarde: `⏳ *PROCESSANDO A IMAGEM, ESPERE UM MOMENTO....*`, 
-responde: `*[ ⚠️ ] Envie/responda a uma imagem com o comando :`, 
-incorrecto: `*[ ⚠️ ] O formato do arquivo não pode ser compartilhado. Envie/responda a uma foto*`, 
-hd: `*AQUI ESTÁ A IMAGEM HD*\n\nCaso a imagem não apareça, o HD responde novamente à imagem com o comando`, 
-error: `Não foi possível baixar seu vídeo, tente novamente` 
+ejem: `Пример :`, 
+ejemplo: `*Что это за поисковая система?\n*Пример:*`, 
+opcion: `ВЫБОР :`, 
+tipo: `ТИП :`, 
+id: ` ID ВИДЕО :`, 
+titulo: ` Заголовок :`, 
+Peso: `*Размер :*`, 
+artista: `Исполнитель`, 
+album: `Альбом`,  
+vista: `Просмотрено :`, 
+publi: `Опубликовано`, 
+dura: `ПРОДОЛЖИТЕЛЬНОСТЬ :`,  
+subidos: `ЗАГРУЖЕНО :`,  
+calidad: `КАЧЕСТВО :`,  
+desc: `ИНФОРМАЦИЯ :`, 
+text: `Введите ссылку, чтобы сократить!`, 
+trad: `🔸 Перевод`, 
+text2: `*И ТЕКСТ?*`, 
+ia: `*⚠️ ВВЕДИТЕ ТЕКСТ, который вы хотите найти?*\n\n*• ПРИМЕР:*\n`, 
+ia2: `*⚠️ ВВЕДИТЕ ТЕКСТ, ЧТОБЫ СОЗДАТЬ ИЗОБРАЖЕНИЕ С ИСПОЛЬЗОВАНИЕМ ФУНКЦИИ DALL-E*\n\n*• ПРИМЕР:*\n`,
+espere: `⏳ *Подождите минуту....*`, 
+aguarde: `⏳ *ОБРАБОТКА ИЗОБРАЖЕНИЯ, ПОДОЖДИТЕ МОМЕНТ....*`, 
+responde: `*[ ⚠️ ]  Отправляйте изображения и отвечайте на них с помощью команд. :`,
+incorrecto: `*[ ⚠️ ] Формат файла не поддерживается. Отправьте фотографии или ответьте на них.*`,   
+hd: `*ЭТО HD-ИЗОБРАЖЕНИЕ*\n\nЕсли изображение не появляется, HD отвечает на него другой командой`,  
+error: `Не удалось загрузить видео. Повторите попытку.`  
 }
 
 //convertidores
 const sms = {
-text: `*Responda ao áudio que deseja alterar com o comando:*`, 
-text2: `*Responder a uma imagem/vídeo para converter o URL`, 
-text3: `*[ ⚠️ ] Responder a um áudio*`, 
-text4: `*E o adesivo?*\n*Responde ao chefe dos adesivos*`, 
-text5: `*🕔 𝘈𝘎𝘜𝘈𝘙𝘋𝘌 𝘜𝘕 𝘔𝘖𝘔𝘌𝘕𝘛𝘖....*\n convertendo imagem em designs de anime, tenha paciência enquanto envio o resultado`, 
-text6: `*Verifique se o rosto de uma pessoa está visível na imagem*`, 
-text7: `E a imagem? Responder ou marcar uma imagem*`
-}
+text: `*Ответьте на звук, который вы хотите изменить, с помощью команды:*`, 
+text2: `*Ответьте на изображение/видео, чтобы преобразовать URL`, 
+text3: `*[ ⚠️ ] Ответить на аудио*`, 
+text4: `*А наклейки?*\n*Стикер-ответ босса*`, 
+text5: `*🕔 ПОДОЖДИТЕ МОМЕНТ....*\nпревращаю изображение в аниме-дизайн, наберитесь терпения, отправляя результаты`,   
+text6: `*Убедитесь, что на фотографии видно лицо человека*`, 
+text7: `А картинка? Ответить или отметить изображение*`
+} 
 
-const info = {
-text: `COMIDO PELO BOT`, 
-text2: `➢ Filial do servidor :`, 
-text3: `➢ Plataforma :`, 
-text4: `➢ Em outras palavras :`, 
-text5: `➢ Cpu usando :`, 
-text6: `➢ Memória total :`, 
-text7: `➢ Usuários :`, 
-text8: `➢ Ativo :`, 
-text9: `➢ Caminho :`, 
-text10: `➢ Bots secundários ativos :`, 
-text11: `➢ Eu sou um SubBots :`,
-text12: `Este bot está em desenvolvimento se quiser entre em contato com meu criador aqui deixo o número deles\n\nNão envie spam para meu criador nem o bloqueie`, 
-text13: `*Olá queridos usuários 👋🏻, Convido você a ingressar nos grupos oficiais das famílias The-LoliBot-MD e NovaBot-MD, para conviver com a comunidade :ᴠ*\n\n*➤ Grupos oficiais do bot:*`, 
-text14: `*➤ grupo de colaboração:*`, 
-text15: `*➤ Grupos de teste para testes de bot:*`, 
-text16: `*➤ Descubra mais sobre novas atualizações de bot aqui:*`, 
-text17: `*➤ Grupo de ajuda sobre o bot:*`, 
-text18: `• Grupos de amigos onde o bot está`, 
-text19: `Se você quiser que seus grupos apareçam aqui, fale com meu criador`, 
+const info = { 
+text: `СТАТУС БОТ`, 
+text2: `➢ Серверная ветка :`,  
+text3: `➢ Платформа :`,  
+text4: `➢ Другими словами :`,  
+text5: `➢ использование процессора :`,  
+text6: `➢ Объем памяти :`, 
+text7: `➢ Пользователь :`,  
+text8: `➢ Ресурсы :`,  
+text9: `➢ Дорога :`,   
+text10: `➢ Активный вторичный бот :`, 
+text11: `➢ я суббот :`,  
+text12: `Этот бот находится в разработке. Если вы хотите связаться с моим создателем, я оставил вам его номер.\n\n ✅️ wa.me/79524197466 ✅️ \n\nНе спамьте моим авторам и не блокируйте их`,   
+text13: `*Здравствуйте, дорогие пользователи 👋🏻, Приглашаю вас присоединиться к официальной группе бота "ZloiBoT", чтобы проще было во всем разобраться :ᴠ*\n\n*➤ Официальная группа бота:*`,   
+text14: `*➤ Группа сотрудничества:*`,  
+text15: `*➤ Группы тестов для тестирования ботов:*`, 
+text16: `*➤ Узнайте о новом обновлении бота здесь:*`,  
+text17: `*➤ Группа поддержки ботов:*`,  
+text18: `• Группа друзей, в которой состоит бот`, 
+text19: `Если вы хотите, чтобы ваша группа появилась здесь, обратитесь к моему создателю.`,   
 text20: `╭─────────────┈⊷
-│ \`\`\`COMO INSTALAR ESTE BOT?\`\`\`
-╰┬────────────┈⊷
-┌┤\`\`\`📌 REQUERIMENTOS DE INSTALAÇÃO\`\`\`
-┌┤❇️ _Dúvidas: wa.me/5492266466080_
-┌┤❇️ _Tutorial: https://youtu.be/OhbJjp0L2QA?si=ZqRgG3SGTRFSW6CH_
-┌┤❇️ _1 GB de armazenamento_
-┌┤❇️ _Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file_
-┌┤❇️ _GitHub: https://github.com/elrebelde21/NovaBot-MD_
-┌┤❇️ _um WhatsApp imune (secundário)_
-┌┤❇️ _um número virtual (outro número)_
-┌┤❇️ _2 dispositivos ou um PC para digitalizar_
-╰────────────┈⊷
+│ \`\`\` Что бы установить бота себе обратитесь к моему создателю!!!\`\`\``,
 
- \`\`\`📌 COMANDO DE INSTALAÇÃO TERMUX\`\`\`
+text21: `*Введите команду с ошибкой*\n\n*Пример:`,  
+text22: `Отчет отправлен моему создателю, при необходимости мы свяжемся с вами, если он неправильный, он будет проигнорирован и заблокирован от ботов.*`,  
+text23: `*╼╼╼╼╼╼╼[ 💖 вклад 💖 ]╾╾╾╾╾╾╾╾*\n\n*Здравствуйте 👋, если вы хотите поддержать этот проект, вы можете сделать это добровольным пожертвованием через Mercado Pago Arg.*\n\n╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍\n\n*❇️Mercado pago:*\n*• Псевдоним :* elrebelde21\n*• КВУ :* 0000003100059201491917`, 
+text24: `*💖 Вы также можете поделиться следующим в качестве поддержки 💕*\n\n*💖 Пожалуйста, поддержите репозиторий несколькими звездами, спасибо 🙏💕*`,  
+text25: `┗❴ ⚠ ПРЕДУПРЕЖДЕНИЕ ⚠ ❵┛\n\nНе отмечайте авторов/разработчиков, если у вас есть предложения по поводу ботов, пишите им в личные сообщения.` }
+ 
+const menu = { 
+text: `❐ Префикс`, 
+text2: `❐ Дата :`,  
+text3: `❐ Время :`, 
+text4: `❐ версия :`, 
+text5: `❐ пользователи :`, 
+text6: `❐ активность :`, 
+text7: `❐ режим :`, 
+text8: `❐ Закон :`, 
+text9: `❐ уровень : `, 
+text10: `❐ диапазон:`, 
+text11: `❐ отмеченный :`, 
+textt: `❐ Ofc Bot: это бот ofc`, 
+texttt: `❐ я суббот:`,  
+text12: `\`\`\`СПИСОК КОМАНД\`\`\`
+\`\`\` Простой бот с несколькими командами\`\`\``,  
+text13: `*Конкретные слова для взаимодействия бота с вами*`,   
+text14: `_*Будьте внимательны, напишите то, что в сообщении*_`,
+text15: `🤔 *Что нового?* 🤗\n\n*🌐 Новая версия:*`,  
+text16: `*Новая команда:*
 
-> termux-setup-storage
-
-> apt update && apt upgrade && pkg update && pkg upgrade && pkg install bash && pkg install libwebp && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget && pkg install imagemagick -y && pkg install yarn
-
-> git clone https://github.com/elrebelde21/NovaBot-MD && cd NovaBot-MD && yarn && npm install
-
-> npm start
-
-(Digitalize o QR rapidamente)
-
-🚀 --------[ Vortexuscloud host ]--------- 🚀
-💞 Graças a: mauro 
-
-• https://youtube.com/@vortexuscloud
-
-• Página Oficial:
-https://vortexuscloud.com
-
-• painel:
-https://dash.vortexuscloud.com
-
-• painel:
-https://panel.vortexuscloud.com
-
-• Canal WhatsApp sobre informações do anfitrião
-• https://whatsapp.com/channel/0029Va8ZD6O3mFXxTPl1m13A`, 
-text21: `*Digite o comando com falha*\n\n*Exemplo:`, 
-text22: `O relato foi enviado ao meu criador, entraremos em contato se necessário, se for falso será ignorado e bloqueado do bot*`, 
-text23: `*╼╼╼╼╼╼╼[ 💖 doação 💖 ]╾╾╾╾╾╾╾╾*\n\n* Olá 👋, se você quiser apoiar este projeto, poderá fazê-lo através de doações voluntárias através do Mercado Pago Arg.*\n\n╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍\n\n*❇️Mercado pago:*\n*• Alias :* elrebelde21\n*• CVU :* 0000003100059201491917`, 
-text24: `*💖 Você também pode compartilhar o seguinte como uma demonstração de apoio 💕*\n\n*💖 Apoie o repositório com uma estrelinha, obrigado 🙏💕*`, 
-text25: `┗❴ ⚠ AVISO ⚠ ❵┛\n\nÉ proibido marcar meu criador/desenvolvimento. Se você tiver alguma sugestão sobre o Bot, escreva para mim em particular.` }
-
-const menu = {
-text: `❐ Prefixo`, 
-text2: `❐ Data :`, 
-text3: `❐ Hora :`, 
-text4: `❐ Versão :`, 
-text5: `❐ Usuários :`, 
-text6: `❐ Atividade :`, 
-text7: `❐ Caminho :`, 
-text8: `❐ Limite :`, 
-text9: `❐ Nível : `, 
-text10: `❐ Classificações:`, 
-text11: `❐ Registrado :`, 
-textt: `❐ Bot Oficial: este é o Bot oficial`, 
-texttt: `❐ Eu sou um SubBots :`, 
-text12: `\`\`\`LISTA DE COMANDOS\`\`\`
-\`\`\`Bot simples com poucos comandos\`\`\``, 
-text13: `*Palavras específicas para o bot interagir com você*`, 
-text14: `_*Olhinhos escrevem como está na mensagem*_`,
-text15: `🤔 *O que há de novo?* 🤗\n\n*🌐 Nova versão:*`, 
-text16: `* Novo comando:*
-
-🟢 Multi idioma agora você pode escolher o idioma ao qual deseja que o bot responda:
+🟢 Мультиязычность: теперь вы можете выбрать язык, на котором бот будет отвечать:
 • #idioma
-• #lenguaje
+• #Язык
 
-Mais comandos, a versão futura quer que eu adicione alguns comandos especiais, escreva para meu criador`, 
-text17: `*🌐 REGRAS DO BOT 🌐*
+Больше команд!!! В будущих версиях если хотите добавить какие то собственные комманды,пишите моему создателю`, 
+text17: `*🌐 ПРАВИЛА ИСПОЛЬЗОВАНИЯ БОТА 🌐*
 
-*• Não envie comandos de spam*
+*• Не спамьте командами*
 
-Use os comandos a cada 5 segundos, caso contrário o bot pode ficar saturado ou o número do bot pode ir para o suporte devido a spam.
+Используйте команду каждые 10-15 секунд, иначе бот будет пропускать команды, или номер бота может уйти в блок из-за спама.
 
-*• Não envie o link do grupo para o bot participar*
+*• Не отправляйте ссылки на группы боту, чтобы он мог присоединиться!!! Один хрен аренда платная!!!🤗🤗🤗*
 
-Fale com meu criador e ele entrará no seu grupo
+Поговорите с моим создателем, и он добавит меня в вашу группу. Если договоритесь конечно
 
-*• Não ligue para o bot ou para o criador*
+*• Не звоните боту в лс или создателю*
 
-Se você fizer isso, você será banido do bot e bloqueado` }
+Если вы позвоните или напишете мне в лс, я автоматом вас заблочу-потом не нойте.` }
 
 //jadibot.js
 const jadibot = {
-text: `Digitalize este QR para se tornar um bot temporário
+text: `Отсканируйте этот QR-код, чтобы стать временным ботом
 
-1) Clique nos três pontos no canto superior direito
-2) Toque em WhatsApp Web
-3) Digitalize este QR
-*O QR expira após 45 segundos*\n\n`, 
-text2: `NOVA MANEIRA DE SE TORNAR UM SUB BOT
+1) Нажмите на три точки в правом верхнем углу.
+2) Нажмите WhatsApp Web.
+3) Отсканируйте этот QR
+*QR истекает через 45 секунд*\n\n`, 
+text2: `НОВЫЙ СПОСОБ СТАТЬ СУББОТОМ
 
-1) Clique nos três pontos no canto superior direito
-2) Toque em WhatsApp Web
-3) Clique no link com o código do telefone
-4) Cole o código abaixo\n\n`, 
-text3: `*⚠️ Este comando foi desabilitado pelo criador*`, 
-text4: `*✅ Você já está conectado, seja paciente, as mensagens estão carregando...*`, 
-text5: `*Conectado com sucesso*`, 
-text6: `× bot :`, 
-text7: `× Proprietário :`, 
-text8: `*OBS: * o bot poderá ser reiniciado caso pare de receber comandos, utilize: #serbot ou o id que será enviado abaixo, para reconectar`, 
-text9: `*⚠️ Dispositivo desconectado com o qual você terá que se reconectar #jadibot*`, 
-text10: `*⚠️ Reenviar o comando....*`, 
-text11: `[ ⚠️ ] Reinicio requerido, Reiniciando...`, 
-text12: `*⚠️ Dispositivo desconectado*\n\n*Você terá que fazer login novamente (use .deljadibot)*`, 
-text13: `*⚠️ Conexão encerrada*\n*Tente reconectar com:`, 
-text14: `[ ⚠️ ] Conexão perdida com o servidor, reconexão forçada`, 
-text15: `*[ ⚠️ ] Sua conexão é inválida*\n*você não será reconectado*`, 
-text16: `[ ⚠️ ] A conexão expirou.`, 
-tex17: `[ ⚠️ ] Erro desconhecido:\n`, 
-text18: `*𝘚𝘜𝘉𝘉𝘖𝘛𝘚 𝘊𝘖𝘕𝘌𝘊𝘛𝘈𝘋𝘖𝘚:*` }
+1) Нажмите на три точки в правом верхнем углу.
+2) Нажмите WhatsApp Web.
+3) Нажмите на ссылку с кодом телефона.
+4) Вставьте код ниже\n\n`, 
+text3: `*⚠️ Эта команда отключена автором*`, 
+text4: `*✅ Вы на связи, наберитесь терпения, сообщения загружаются...*`, 
+text5: `*Подключено успешно*`, 
+text6: `× Бот :`, 
+text7: `× Владелец :`, 
+text8: `*ПРИМЕЧАНИЕ. *бота можно перезапустить, если он перестанет получать команды. Для повторного подключения используйте #serbot или идентификатор, который будет отправлен ниже.`, 
+text9: `*⚠️ Отключенные устройства, которые необходимо повторно подключить: #jadibot*`, 
+text10: `*⚠️ Повторно отправить команду....*`, 
+text11: `[ ⚠️ ] Требуется перезагрузка, Перезагрузить...`, 
+text12: `*⚠️ Устройство отключено*\n\n*Необходимо войти снова (используйте .deljadibot)*`, 
+text13: `*⚠️ Соединение закрыто*\n*Попробуйте переподключиться с помощью:`, 
+text14: `[ ⚠️ ] Потеряно соединение с сервером, вынужден переподключиться`, 
+text15: `*[ ⚠️ ] Ваше соединение недействительно*\n*Вы не сможете повторно подключиться*`, 
+text16: `[ ⚠️ ] Время соединения истекло.`, 
+tex17: `[ ⚠️ ] Неизвестная ошибка:\n`, 
+text18: `*ПОДКЛЮЧЕННЫЕ СУББОТЫ:*` }
 
 //descargar.js
-const descargar = {
-text: `*O que está procurando? insira o nome do tema*\n\nExemplo:`, 
-text2: `         *⌜Música encontrada ✅⌟*`,
-text3: `         *⌜Video Encontrado ✅⌟*`, 
-text4: `*Aqui estão seus vídeos 👌*`, 
-text5: `          *⌜ Audio Encontrado ✅⌟*`, 
-text6: `*AGUARDE ENVIANDO SEU ARQUIVO MP3 ⚠*
+const descargar = { 
+text: `*Что искать? введите название темы*\n\nПример:`, 
+text2: `         *⌜ Найденные песни ✅⌟*`,
+text3: `         *⌜ Видео найдено ✅⌟*`, 
+text4: `*Это твое видео👌*`, 
+text5: `          *⌜ Аудио найдено ✅⌟*`, 
+text6: `*ДОЖДИТЕСЬ ОТПРАВКИ ВАШИХ MP3-ФАЙЛОВ ⚠*
 
-*Serviços prestados pela NovaBot*`,  
-text7: `*AGUARDE ENVIANDO SEU ARQUIVO MP4 ⚠*
+*Услуга предоставляется ZloiBoT*`, 
+text7: `*ДОЖДИТЕСЬ ОТПРАВКИ ВАШИХ ФАЙЛОВ MP4 ⚠*
 
-*Serviços prestados pela NovaBot*`, 
-text8: `*O que você está procurando?*\n*Digite o nome de uma música do Spotify.*`, 
-text9: `*Onde está o link do github?*\n\n*Exemplo :*`, 
-text10: `*𝘈𝘎𝘜𝘈𝘙𝘋𝘌 𝘜𝘕 𝘔𝘖𝘔𝘌𝘕𝘛𝘖...*\n\nSe o arquivo não chegar, o repositório é muito pesado.`, 
-text11: `*O que está procurando? Digite o título/nome da música para procurar a letra*\n*Exemplo:*`, 
-text12: `*Nome*`, 
-text13: `*Tamanho*`, 
-text14: `*Extensão*`, 
-text15: `Não consigo baixar o arquivo excede o limite de 900 MB\n`, 
-text16: `*🎥 AQUI ESTÁ SEU VÍDEO NO FACEBOOK*`, 
-text17: `*Digite o nome de usuário*\n\n*Exemplo:*`, 
-text19: `*Nome de usuário :*`, 
-text20: `*Seguidores :*`, 
-text21: `*Seguindo :*`, 
-text22: `*Biografía :*`, 
-text23: `*Publicações :*`, 
-text24: `*[ ⚠️ ] Qual apk você está procurando??*`, 
-text25: `*Downloader do Aptoide*`, 
-text26: `*Última atualização`, 
-text27: `*Tamanho`, 
-text28: `[ ⛔ ] O arquivo é muito grande e não será enviado.`, 
-title: `*Título:*`, 
-duracion: `*Duração:*`,
-ago: `*Publicado:*`, 
-autor: `*Autor:*`,
-views: `*Visualizações:*`, 
-letra: `*Letra:*`, 
-music: `*• Áudio baixado 🔊, Aguarde un momento....*`, 
-vid: `*• Vídeo baixado 🎥, Aguarde un momento....*`, 
-espere: `*🕔 EM PROCESSAMENTO....*`,  
-audio: `*⏳ EM PROCESSAMENTO....*\n\n_Baixei seu áudio, aguarde um momento, por favor_`, 
-video: `*⏳EM PROCESSAMENTO....*\n\n_Baixei seu video, aguarde um momento, por favor_`,
-descargado: `_Descargo archivo aguarde un momento...._` }
+*Услуги, предоставляемые ZloiBoT*`, 
+text8: `*Что вы ищете?*\n*Введите название песни Spotify.*`,  
+text9: `* Где ссылка на github?*\n\n*Пример :*`, 
+text10: `*ПОДОЖДИТЕ МОМЕНТ...*\n\nЕсли файл не доставлен, это потому, что репозиторий очень большой.`,   
+text11: `*Что искать? введите название/название песни для поиска текста*\n*Пример:*`, 
+text12: `*Нет*`, 
+text13: `*Размер*`, 
+text14: `*Расширение*`, 
+text15: `Я не могу загружать файлы размером более 900 МБ.\n`, 
+text16: `*🎥 ЗДЕСЬ ВАШЕ ВИДЕО НА ФЕЙСБУКЕ*`, 
+text17: `*Введите имя пользователя*\n\n*Пример:*`, 
+text19: `*Фамилия :*`, 
+text20: `*последователи :*`, 
+text21: `*Следовать :*`, 
+text22: `*биография :*`, 
+text23: `*Публикация :*`, 
+text24: `*[ ⚠️ ] Какой APK вы ищете?*`, 
+text25: `*Загрузчик Aptoide*`, 
+text26: `*Последнее обновление`, 
+text27: `*Размер`, 
+text28: `[ ⛔ ] Файл слишком велик, поэтому он не будет отправлен.`, 
+title: `*Название:*`, 
+duracion: `*Продолжительность:*`,
+ago: `*Опубликовано:*`, 
+autor: `*Автор:*`,
+views: `*Появление:*`, 
+letra: `*Письмо:*`, 
+music: `*• Скачал аудио 🔊, Подожди минутку....*`,  
+vid: `*• Скачал видео 🎥, Подожди минутку....*`, 
+espere: `*🕔 ПОДОЖДИТЕ МИНУТУ....*`,  
+audio: `*⏳ ОБРАБОТКА....*\n\n_ваш аудиозагружен, подождите немного._`,  
+video: `*⏳ ОБРАБОТКА....*\n\n_ваше видео скачано, подождите немного_`,
+descargado: `_Скачивание файла, подождите немного...._` }
 
 //enable.js
 const enable = {
-text: `⪨╼╼≪⚠️ AÇÃO MAL UTILIZADA ⚠️≫╾╼⪩\n\n*Use esta forma como exemplo:*`, 
-text1: `*Foi ativado com sucesso*`, 
-text2: `*Está desligado!*`, 
-text3: `*Atenção a todos os membros ativos deste grupo 📣*\n\n*O antilink está ativo*\n\n*E somente os administradores deste grupo poderão passar o link*\n\nSe algum participante que não seja um administrador enviar um link de outro grupo será banido deste grupo imediatamente`, 
-text4: `O Bot responderá apenas aos administradores do grupo.`, 
-text5: `Agora o bot funciona para todos os participantes do grupo 🥳` }
+text: `⪨╼╼≪⚠️ СИСТЕМНЫЕ НАСТРОЙКИ⚠️≫╾╼⪩\n\n* Используйте этот метод в качестве примера:*`, 
+text1: `*Он был успешно активирован*`, 
+text2: `*Не активен!*`, 
+text3: `*Внимание всем активным участникам этой группы 📣*\n\n*Антилинк активен*\n\n*И только администратор этой группы может пересылать ссылки*\n\nЕсли ссылку присылает участник, не являющийся администратором из другой группы, они будут немедленно забанены в этой группе`, 
+text4: `Бот будет отвечать только администраторам группы..`, 
+text5: `Бот теперь работает для всех участников группы.🥳` }
 
 //grupo.js
 const grupos = {
-text: `*e o texto?*`, 
-text1: `*GRUPO ABERTO DE SUCESSO✅*`, 
-text2: `*GRUPO FECHADO COM SUCESSO✅*`, 
-text3: `*INSIRA O LINK DO GRUPO*\n\n*📌 EXEMPLO:*`, 
-text4: `*JÁ PARTICIPEI 😼*`, 
-text5: `📧 *APLICAÇÃO PARA UM GRUPO*\n\n*👤 SOLICITANTE*`, 
-text6: `*🔮 LINK*`, 
-text7: `*✅ Seu link foi enviado para meu proprietário*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n⚠️ *Seu grupo será avaliado e caberá ao meu proprietário decidir se o Bot ingressará ou não no grupo..*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n❕ *Sua inscrição poderá ser rejeitada pelos seguintes motivos::*\n*1️⃣ O bot está saturado.*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n2️⃣ *O bot foi removido do grupo.*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n3️⃣ *O grupo não cumpre os regulamentos do bot*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n4️⃣ *O link do grupo foi restaurado.*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n5️⃣ *Não adicionado a grupos de acordo com meu proprietário*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n📧 *A solicitação pode levar horas para ser respondida. Por favor, seja paciente, obrigado*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n*Você pode apoiar o bot com uma estrela em nosso repositório oficial e se inscrever em nosso canal no YouTube enviar uma captura de tela para meu criador para que ele adicione o bot ao seu grupo 💫*`, 
-text8: `*[ UM BOT NO SEU GRUPO ]*
+text: `*а текст?*`, 
+text1: `*Группа успешно закрыта✅*`, 
+text2: `*Группа успешно открыта,✅*`, 
+text3: `*ВВЕДИТЕ ССЫЛКУ НА ГРУППУ*\n\n*📌 ПРИМЕР:*`, 
+text4: `*Я ПРИСОЕДИНИЛСЯ😼*`, 
+text5: `📧 *ЗАЯВКА НА ГРУППЫ*\n\n*👤 Ваш запрос*`,    
+text6: `*🔮 Связь*`, 
+text7: `*✅ Ваша ссылка была отправлена ​​моему владельцу*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n⚠️ *Ваша группа будет оценена, и мой владелец должен решить, будет ли Бот присоединяется к группе или нет. нет.*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n❕*Ваша заявка может быть отклонена по следующим причинам:*\n*1️⃣ Бот переполнен.*\n┈┈ ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n2️⃣ *Бот удален из группы.*\n┈┈┈┈┈┈┈┈┈┈ ┈┈┈┈┈┈┈ ┈┈\n3️⃣ *Группа не соответствует правилам бота*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n4️⃣ *Ссылка на группу восстановлена. *\n┈┈┈┈┈┈┈┈┈┈┈ ┈┈┈┈┈┈┈┈\n5️⃣ *Не добавлен в группу моим владельцем*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ┈┈┈┈\n📧 *Ответ на запрос может занять несколько часов. Пожалуйста, наберитесь терпения, спасибо*\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n*Вы можете поддержать Бота звездочками в нашем официальном репозитории и подписаться на наш YouTube-канал, отправить отправьте скриншоты моему создателю, чтобы он мог добавить бота в вашу группу 💫*`, 
+text8: `*[ БОТ В ВАШУ ГРУППУ ]*
 
-Você pode solicitá-lo fazendo uma doação voluntária através do Mercado Pago arg.
+Вы можете запросить его, сделав добровольное пожертвование НА СБЕРБАНК ПО МОЕМУ НОМЕРУ.
 
-🚀 O bot estará ativo 24 horas por dia, 7 dias por semana para o seu grupo.
+🚀 Бот будет активен для вашей группы 24/7.`, 
+text9: `*⚠️ и картинки?*`, 
+text10: `*⚠️ Отвечайте на изображения с помощью  :*`, 
+text11: `*✅ Название группы изменено правильно*`, 
+text12: `*✅ Описание группы успешно изменено*`, 
+text13: `*[ ⚠️ ] ВВЕДИТЕ КОЛИЧЕСТВО ЛЮДЕЙ, КОТОРЫЕ ВЫ ХОТИТЕ ДОБАВИТЬ*\n*ПРИМЕР:*`, 
+text14: `*⚠️ ВВЕДИТЕ НОМЕР (+)*`, 
+text15: `≡ *ПРИГЛАШЕНИЕ*\n\nЗдравствуйте пользователи, приглашаю вас присоединиться к этой группе.`, 
+text16: `*[ ⚠️ ] КОГО МНЕ ПОТЕРЯТЬ? ОТМЕТКИ НЕКОТОРЫХ МОИХ ПОЛЬЗОВАТЕЛЕЙ НЕ ПРОГНОЗЫ 😯*`, 
+text17: `*[ ⚠️ ] КТО Я КАК АДМИН? ОТМЕТЬТЕ ЧЕЛОВЕКА ИЛИ ОТВЕТЬТЕ НА ЕГО СООБЩЕНИЕ*`, 
+text18: `*[ ⚠️ ] У КОГО УДАЛЯТЬ АДМИНА? ОТМЕТЬТЕ ЧЕЛОВЕКА ИЛИ ОТВЕТЬТЕ НА ЕГО СООБЩЕНИЕ*`, 
+text19: `*ЛОДКА МЕРТВА*`, 
+text20: `*МОЙ ОНЛАЙН-БОТ СЕЙЧАС ДОСТУПЕН ✅*`, 
+text21: `❑ Сообщение :`, 
+text22: `*[ ⚠ ️] Используйте эту команду только в случае крайней необходимости*`, 
+text23: ` ИНФОРМАЦИЯ О ГРУППЕ`,  
+text24: `*🔸️ Название* :`,  
+text25: `*🔸️ Участников* :`,  
+text26: ` человек`,  
+text27: `*🔸️ Создатель группы:*`, 
+text28: `*🔸️ Настройки активированные в группе:*`,  
+text29: `*🔸️ Информация* :`,    
+text30: `[ ⚠️ ] Отметьте/упомяните кого-нибудь\n\n📌 Пример :`, 
+text31: `✳️ Пользователь не найден в моей базе данных`,  
+text32: `⚠️ *ПОЛЬЗОВАТЕЛИ БУДЬТЕ ПРЕДУПРЕЖДЕНЫ* ⚠️`,  
+text33: `*Пользователь:*`,  
+text34: `*Предупреждение:*`, 
+text35: `*Причина:*`,  
+text36: `⚠️ *ВНИМАНИЕ* ⚠️
 
-*⚡ Onde posso doar?*
-Através do nosso Mercado de Pagamentos.
-
-❇️Mercado de pagamento:
-• Alias: elrebelde21
-• CVU: 0000003100059201491917
-
-*⚡ Não posso doar, existe outra opção de conseguir um bot para meu Grupo?*
-Você pode apoiar nosso repositório oficial com uma estrelinha 🌟
-• https://github.com/elrebelde21/NovaBot-MD
-
-🔔 Inscreva-se em nosso canal oficial no YouTube
-• https://www.youtube.com/@elrebelde.21
-
-*⏩ Próxima etapa ⏩*
-
-Assim que o pagamento for efetuado, você pode informar meu criador e enviar o comprovante de envio do dinheiro (captura de tela) para que eu possa adicionar o bot ao seu grupo 👇.
-https://chat.whatsapp.com/BvElRVdgTVW34KRXtnvBfB
-
-*⚡ O bot estará ativo 24 horas por dia, 7 dias por semana?*
-Sim, nosso bot está hospedado em um servidor pago para mantê-lo funcionando 24 horas por dia, 7 dias por semana (é por isso que também pedimos doações para mantê-lo funcionando).`, 
-text9: `*⚠️ E a imagem?*`, 
-text10: `*⚠️ Responder a uma imagem com :*`, 
-text11: `*✅ O nome do grupo foi alterado corretamente*`, 
-text12: `*✅ A descrição do grupo foi alterada com sucesso*`, 
-text13: `*[ ⚠️ ] DIGITE O NÚMERO DA PESSOA QUE DESEJA ADICIONAR*\n*EXEMPLO:*`, 
-text14: `*⚠️ DIGITE O NÚMERO SEM ELE (+)*`, 
-text15: `≡ *CONVITE*\n\nOlá, usuário, convido você a participar deste grupo.`, 
-text16: `*[ ⚠️ ] QUEM DIABOS EU ELIMINO? MARQUE ALGUM USUÁRIO NÃO SOU PREVISÃO 😯*`, 
-text17: `*[ ⚠️ ] A QUEM DEVO ADMINISTRAR? MARQUE A PESSOA OU RESPONDA SUAS MENSAGENS*`, 
-text18: `*[ ⚠️ ] DE QUEM REMOVI OS ADMINISTRADORES? MARQUE A PESSOA OU RESPONDA SUAS MENSAGENS*`, 
-text19: `*DESLIGADO*`, 
-text20: `*BOT ONLINE JÁ ESTOU DISPONÍVEL ✅*`, 
-text21: `❑ Mensagem :`, 
-text22: `*[ ⚠ ️] Use este comando somente quando for uma emergência*`, 
-text23: ` Informações do grupo`, 
-text24: `*🔸️ Nome* :`, 
-text25: `*🔸️ Membros* :`, 
-text26: ` Participantes`, 
-text27: `*🔸️ Criador do grupo:*`, 
-text28: `*🔸️ Configurações de grupo:*`, 
-text29: `*🔸️ Descrição* :`, 
-text30: `[ ⚠️ ] Marcar/mencionar alguém\n\n📌 Exemplo :`, 
-text31: `✳️ O usuário não foi encontrado em meu banco de dados`, 
-text32: `⚠️ *USUÁRIOS AVISADOS* ⚠️`, 
-text33: `*Usuários:*`, 
-text34: `*Aviso:*`, 
-text35: `*Razão:*`, 
-text36: `⚠️ *Aviso* ⚠️
-Você recebeu um aviso de um administrador`, 
-text37: ` Se você receber o aviso *4* você será automaticamente removido do Grupo`, 
-text38: `⛔ O usuário excedeu *4* avisos e será removido`, 
-text39: `⚠️ *Um aviso foi removido* ⚠️`, 
-text40: ` Aviso completo:`, 
-text41: `🔸️ Um administrador reduziu seu aviso, agora você tem`, 
-text42: `🔸️ O usuário não tem aviso` }
+Вы получаете предупреждение от администратора`, 
+text37: `Если вы получите предупреждение *4*, вы будете автоматически удалены из группы.`, 
+text38: `⛔ Пользователь превысил *4* предупреждения и поэтому будет удален.`, 
+text39: `⚠️ *ПРЕДУПРЕЖДЕНИЕ УДАЛЕНО* ⚠️`, 
+text40: `Полное предупреждение:`, 
+text41: `🔸️ Админ уменьшил предупреждение, теперь вы это сделали`, 
+text42: `🔸️ Пользователи не получают оповещения` }
 
 //juegos.js
 const juegos = {
-text: `*e a pergunta?*\n\n*Exemplo:*`, 
-text1: `*• Perguntar:*`, 
-text2: `*• Responder:*`, 
-text3: `você deveria se casar`, 
-text4: `Eles formam um belo casal 💕`, 
-text5: `*Digite o @ ou o nome da pessoa*`, 
-text6: `🤤👅🥵 *VOCÊ APENAS FODEU COM ELE!*🥵👅🤤
+text: `*и вопрос?*\n\n*Пример:*`, 
+text1: `*• Просить:*`, 
+text2: `*• Отвечаю:*`,  
+text3: ` тебе придется выйти замуж`, 
+text4: ` Они совместимая пара 💕`, 
+text5: `*Введите @ или имя человека*`, 
+text6: `🤤👅🥵 *ВЫ ПРОСТО ЛЮБИТЕ ЕГО!*🥵👅🤤
 
-Você acabou de foder a vadia`, 
-text7: `De quatro enquanto ela gemia para você como uma maldita vadia "Aahh, aaahh, continue, não pare, não pare" e você a deixou tão quebrada que a maldita vadia não consegue nem segurar o próprio corpo .!`, 
-text8: `🤤🥵 *¡ELES JÁ TE FODERAM!* 🥵🤤`, 
-text9: `Já pensou em fazer um trio? vocês três fazem um bom trio 😳😏`, 
-text10: `*_😍 Os 5 melhores casais do grupo 😍_*`, 
-text11: `- Este casal está destinado a ficar junto 💙`, 
-text12: `- Este casal são dois pombinhos apaixonados ✨`, 
-text13: `- Ufff e o que dizer desse casal, eles deveriam até ter uma família🤱🧑‍🍼`, 
-text14: `- Eles já se casaram secretamente 💍`, 
-text15: `- Este casal está em lua de mel ✨🥵😍❤️`, 
-text16: `*[ ⚠️ ] Escreva o nome de duas pessoas para calcular seu amor*`, 
-text17: `*Ei, escreva o nome da segunda pessoa*`,
-text18: `*Insira o nome?*`, 
-text19: `*[ ⚠️ ] INSIRA A @tag DE ALGUM USUÁRIO*`, 
-text20: `*[ ⚠️ ] Digite o valor que deseja apostar*\n\n*📌 Exemplo:*`, 
-text21: `⏳ ter esperança`, 
-text22: ` Para apostar novamente`, 
-text23: `*✳️ A aposta mínima é 100 experiência*`, 
-text24: `*✳️ Você não tem XP suficiente*`, 
-text25: `🎁 Vencer você`, 
-text26: `*🔮 Você quase conseguiu!! Continue tentando*\n*Leve +20 XP*`, 
-text27: `😔 Você perdeu`, 
-text28: `🥌 Pedra 📄 Papel ✂️ Tesoura\n\n• Você pode usar esses comandos:\n🥌 #ppt piedra\n📄 #ppt papel\n✂️ #ppt tijera\n\n• Usar letras minúsculas\n*Exemplo:* #ppt papel` }
-
-//nsfw.js 
+Ты только что трахнул эту суку`, 
+text7: `На четвереньках, пока она стонет на тебя, как сука: «ааа, ааа, продолжай, не останавливайся, не останавливайся», и он оставляет ее такой разбитой, что сука даже не может удержаться.!`, 
+text8: `🤤🥵 *¡ОНИ УЖЕ ЛЮБЯТ ТЕБЯ!* 🥵🤤`, 
+text9: ` Вы когда-нибудь задумывались о создании трио? из вас троих получится отличный секс втроем 😳😏`, 
+text10: `*_😍 5 лучших пар в группе 😍_*`, 
+text11: `- Этой паре суждено быть вместе 💙`, 
+text12: `- Эта парочка — двое влюбленных маленьких неразлучников.✨`, 
+text13: `- Уфф, а что сказать об этой паре, у них уже должна быть семья 🤱🧑‍🍼`, 
+text14: `- Они тайно поженились 💍`, 
+text15: `- Пара находится в медовом месяце✨🥵😍❤️`, 
+text16: `*[ ⚠️ ] Запишите имена двух людей, чтобы вычислить их любовь*`, 
+text17: `*Эй, напиши имя второго человека*`,
+text18: `*Введите имя?*`, 
+text19: `*[ ⚠️ ] ВВЕДИТЕ @tag НЕКОТОРЫЕ ПОЛЬЗОВАТЕЛИ*`, 
+text20: `*[ ⚠️ ] Введите сумму, которую хотите поставить*\n\n*📌 Пример:*`, 
+text21: `⏳ надеяться`, 
+text22: `Чтобы сделать ставку еще раз`,  
+text23: `*✳️ Минимальная ставка 100 опыта.*`, 
+text24: `*✳️ У вас недостаточно опыта*`,  
+text25: `🎁 Бить вас`,  
+text26: `*🔮 Ты почти сделал это!! Продолжайте*\n*Возьмите 20 ᥊⍴*`,   
+text27: `😔 Терпеть`,      
+text28: `🥌 камень 📄 ножницы ✂️ бумага\n\n• Вы можете использовать эту команду:\n🥌 #ppt piedra\n📄 #ppt papel\n✂️ #ppt tijera\n\n• Используйте строчные буквы\n*Пример:* #ppt papel` }
+  
+//nsfw.js
 const nsfw = {
-text: `😐 Você é menor de idade! vá jogar free fire 😆`, 
-text1: `*Aqui está meu pacote 🥵*`, 
-text2: `*🥵 Aproveite o vídeo 🥵` }
+text: `😐 Ты еще несовершеннолетний! давай поиграем в фри фаер😆`, 
+text1: `*Это мой пакет 🥵*`, 
+text2: `*🥵 НАСЛАЖДАЙТЕСЬ ВИДЕО🥵` }  
 
 //propietario.js
 const owner = {
-text: `*Digite o texto que deseja transmitir*`, 
-text1: `*Enviando mensagens oficiais por um momento*`, 
-text2: `「 ✅ *𝘊𝘖𝘔𝘜𝘕𝘐𝘊𝘈𝘋𝘖 𝘖𝘍𝘐𝘊𝘐𝘈𝘓* ✅ 」`, 
-text3: `Transmissão realizada com sucesso ✅ Total:`, 
-text4: `Bate-papos em grupo\nTempo total de envio:`, 
-text5: `*O usuário foi bloqueado no bot*`, 
-text6: `*O usuário foi desbloqueado*`, 
-text7: `*[ ⚠️ ] Responda ao adesivo ou imagem à qual deseja adicionar um comando ou texto*`, 
-text8: `*⚠️ Mencionar na mensagem*`, 
-text9: `*[ ⚠️ ] Erro de uso, texto ausente*\n\n* Exemplo de uso correto do comando:*`, 
-text10: `*[ ⚠️ ] Você não tem permissão para alterar este comando de adesivo*`, 
-text11: `*[ ✔ ] O texto/comando atribuído ao adesivo/imagem foi adicionado corretamente ao banco de dados*`, 
-text12: `*Este ID de adesivo não existe*`, 
-text13: `*[ ⚠️ ] Você não tem permissão para alterar este comando de adesivo*`, 
-text14: `*𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂*\n▢ *Informações:* Se estiver em *Negrito* está bloqueado`, 
-text15: `*[ ⚠️ ] Marque um usuário com o @𝚝𝚊𝚐*`, 
-text16: `*[ ⚠️ ] Digite a quantidade de diamante que deseja adicionar*`, 
-text17: `*[ ⚠️ ] Símbolo não suportado, apenas número!*`, 
-text18: `*[ ⚠️ ] O número mínimo de diamantes a serem adicionados é 𝟷*`, 
-text19: `*Foi adicionado*`, 
-text20: `*[ ⚠️ ] Insira a quantidade de experiência (XP) que você deseja adicionar*`, 
-text21: `*[ ⚠️ ] O número mínimo de experiência (XP) para adicionar é 𝟷*`, 
-text22: `*O usuário foi banido e não poderá mais usar meus comandos*`, 
-text23: `*O usuário foi desbanido com sucesso ✅ agora ele pode usar o bot*`, 
-text24: `✅ Mudança bem-sucedida para uso público`, 
-text25: `✅ Mudança bem-sucedida para uso privado`, 
-text26: `*Adeus, foi um prazer, você está aqui até breve 👋*`, 
-text27: `*Enviando Backup, Backup por um momento*`, 
-text28: `_🔄 Reiniciando Bot..._` }
-
+text: `*Введите текст, который хотите опубликовать*`, 
+text1: `*Отправка официального сообщения на минутку*`, 
+text2: `「 ✅ *ОФИЦИАЛЬНОЕ ОБЪЯВЛЕНИЕ* ✅ 」`,  
+text3: `Передача завершена успешно ✅ Общий:`,  
+text4: `Групповой чат\nОбщее время доставки:`,  
+text5: `* Пользователь заблокирован от ботов*`, 
+text6: `* Пользователь освобожден*`, 
+text7: `*[ ⚠️ ] Отвечайте на стикеры или изображения, к которым вы хотите добавить команды или текст.*`, 
+text8: `*⚠️ Изложите сообщение*`,   
+text9: `*[ ⚠️ ] Ошибка использования, отсутствует текст*\n\n*Пример правильного использования команды:*`,  
+text10: `*[ ⚠️ ] У вас нет разрешения на изменение этой команды стикера.*`,   
+text11: `*[ ✔ ] Текст/команда, назначенная наклейке/изображению, корректно добавлена ​​в базу данных.*`, 
+text12: `*Этот идентификатор стикера не существует.*`,  
+text13: `*[ ⚠️ ] У вас нет разрешения на изменение этой команды стикера*`,  
+text14: `* СПИСОК КОМАНД*\n▢ *Информация:* Если *жирный* заблокирован`,    
+text15: `*[ ⚠️ ] Отмечайте пользователей с помощью @𝚝𝚊𝚐*`, 
+text16: `*[ ⚠️ ] Введите количество бриллиантов, которое вы хотите добавить*`,   
+text17: `*[ ⚠️ ] Символы не поддерживаются, только цифры.!*`, 
+text18: `*[ ⚠️ ] Минимальное количество добавляемых бриллиантов — 𝟷.*`,   
+text19: `*Itu был добавлен*`, 
+text20: `*[ ⚠️ ] Введите количество опыта (XP), которое вы хотите добавить.*`,   
+text21: `*[ ⚠️ ] Минимальное количество опыта (XP), которое можно добавить, составляет 𝟷.*`, 
+text22: `*Заблокированные пользователи больше не могут использовать мои команды*`,   
+text23: `*Пользователь успешно разбанен ✅ теперь он может использовать бота*`,  
+text24: `✅ Успешные изменения для публичного использования`,  
+text25: `✅ Успешные изменения для частного использования`,  
+text26: `*До свидания, очень рад, до скорой встречи 👋*`, 
+text27: `*Отправка резервной копии на мгновение*`, 
+text28: `_🔄 Перезапуск бота..._` } 
+ 
 //randow.js
 const ramdow = {
-text: `*você está com tesão 🥵🔥*`, 
-text2: `_Sua religião é ser um simplório!!_`, 
-text3: `*Chame a polícia!!* 😱`, 
-text4: `*Você comentou no YouTube!!* 😳` }
+text: `*ты возбужден 🥵🔥*`,  
+text2: `_Ваша религия должна быть простой!!_`,  
+text3: `*Вызовите полицию!!* 😱`,  
+text4: `*Вы оставили комментарий на YouTube!!* 😳` }
 
 //rpg.js
-const rpg = {
-text: `[ 💤 Não os rotule 💤 ]\n\n Este usuário que menciona este AFK`, 
-text1: `*Ficou inativo por : `, 
-text2: `*🕔 Você parou esse AFK 🕔*`, 
-text3: `ENTRE OS MELHORES`, 
-text4: `Esses usuários`, 
-text5: `Está inativo 😴\n💤 Não os rotule 💤\n☣️ Motivos :`, 
-text6: `*🚓 Ele volta*`, 
-text7: `*Nome :*`, 
-text8: `*Usar :*\n║ Você pode comprar 💎 diamante\n║ Usando o seguinte comando:`, 
-text9: `[ ⏳ ] Espere`, 
-text10: `para o meu novamente`, 
-text11: `⚒️ Genial eu`, 
-text12: `*Você já trabalhou muito por hoje*`, 
-text13: `*para volver a chambea*`, 
-text14: `🎁 *Você já coletou sua recompensa diária*\n\n🕚 volte para dentro :`, 
-text15: `*🎁 Você ganha um presente de Natal 🎁*
-
-• *Recebeu:*`, 
-text16: `*🎁 E você pegou seu peito*\n🕚 Ele volta:`, 
-text17: `🛒 Pegue um baú`, 
-unreg: `*✳️ Digite o número de série, verifique seu número de série com o comando:* #myns`, 
-myns: `*⚠️ Número de série incorreto, use:* #myns`, 
-delreg: `*✅ ᴿᵉᵍᶦˢᵗʳᵒ ᵉˡᶦᵐᶦⁿᵃᵈᵒ*`, 
-myns2: `👇 Este é o seu número de série:`, 
-rob: `*⚠️ MARQUE A PESSOA BOBO*`, 
-rob2: `*😔 Os usuários*`, 
-rob3: `*Tem menos de 15 diamantes, não roube de pobre*`, 
-rob4: `Tem menos de 10 exp, não roube de pobre* v:`, 
-rob5: `*Você saqueou ⚔️ ᴀ*`, 
-rob6: `Roubado por:`, 
-rob7: `*🚓🚓🚓 Você não poderia roubá-lo porque a polícia protege esse usuário 👮 (AFK)*`, 
-buy: `*nota de pagamento*`, 
-buy2: `*Comprou :*`, 
-buy3: `*você gastou :*`, 
-buy4: `🔶 Você não tem XP suficiente para comprar`, 
-buy5: `Diamante 💎 você pode obter *XP* usando o comando #minar`, 
-pp: `              *⪨ ＰＥＲＦＩＬ ⪩*`, 
-pp2: `*💫 NOME :*`, 
-pp3: `*📱 NÚMERO :*`, 
-pp4: `*💎 DIAMANTES :*`, 
-pp5: `*🆙 NÍVEL :*`, 
-pp6: `*🏆 FAIXA :*`, 
-pp7: `*📇 REGISTRADOS :*`, 
-level: `*💫 SUAS ESTATÍSTICAS 🆙*`, 
-level2: `『 Suas estatísticas em tempo real 🕐 』`, 
-level3: `💫 *NOME:*`, 
-level4: `🎊 você está faltando`, 
-level5: `*XP* para subir de nível`, 
-level6: `Felicidades\n├ Você alcançou um novo nível 』`, 
-level7: `*💫 Quanto mais você interage com os bots, maior será o seu nível.*` }
-
+const rpg = { 
+text: `[ 💤 НЕ НАЗВЫВАЙТЕ ИХ 💤 ]\n\nЭтот пользователь упомянул этот AFK`,  
+text1: `*Он не активен для : `,  
+text2: `*🕔 Освободить этот AFK 🕔*`,  
+text3: `ТАБЛИЦА ЛИДЕРОВ`,  
+text4: `Этот пользователь`,    
+text5: `Он неактивен 😴\n💤 Не отмечайте их 💤\n☣️ Причины :`,  
+text6: `*🚓 Он возвращается*`,  
+text7: `*Нет :*`,    
+text8: `*ИСПОЛЬЗОВАНИЕ:*\n║Вы можете купить 💎 бриллианты\n║Используя следующую команду:`, 
+text9: `[ ⏳ ] Ждать`,  
+text10: `для меня снова`, 
+text11: `⚒️ Я дружелюбный`,  
+text12: `*Ты сегодня много работал*`, 
+text13: `* вернуться на работу*`, 
+text14: `🎁 * Вы забрали свой ежедневный подарок*\n\n🕚 снова в :`,   
+text15: `*🎁 Получил рождественский подарок 🎁🎅*
+ 
+• *Вы получили:*`,   
+text16: `*🎁 ВЫ ПОДНЯЛИ ГРУДЬ*\n🕚 ВЕРНИТЕСЬ:`, 
+text17: `🛒 ПОЛУЧИТЬ СУНДУК`,   
+unreg: `*✳️ Введите серийный номер, проверьте свой серийный номер командой:* #myns`, 
+myns: `*⚠️ Неправильный серийный номер, используйте:* #myns`, 
+delreg: `*✅ Запись удалена*`,   
+myns2: `👇 Это ваш серийный номер:`,  
+rob: `*⚠️ ОТМЕТИТЬ ЛЮДЕЙ БОБО*`, 
+rob2: `*😔 Пользователи*`,   
+rob3: `*Бриллиант меньше 15, не воруйте у бедных*`,  
+rob4: `Имейте меньше 10 опыта, не воруйте у бедных людей* v:`, 
+rob5: `*Вы разграбили⚔️ ᴀ*`,  
+rob6: ` Украдено:`,  
+rob7: `*🚓🚓🚓 Ограбить его нельзя, потому что этого пользователя защищает полиция 👮 (AFK)*`, 
+buy: `*платежные записи*`, 
+buy2: `*Вы приобрели :*`,  
+buy3: `*ты потратил :*`,   
+buy4: `🔶 У вас недостаточно опыта для покупки`,  
+buy5: ` Бриллианты 💎 Вы можете получить *XP* с помощью команды: #minar`, 
+pp: `              *⪨ ПРОФИЛЬ ⪩*`,  
+pp2: `*💫 НЕТ :*`,  
+pp3: `*📱 ЧИСЛО :*`, 
+pp4: `*💎 АЛМАЗ :*`,   
+pp5: `*🆙 УРОВЕНЬ :*`,  
+pp6: `*🏆 ДОСТИГАТЬ :*`, 
+pp7: `*📇 ЗАРЕГИСТРИРОВАНО :*`, 
+level: `*💫 ВАША СТАТИСТИКА 🆙*`, 
+level2: `『 Ваша статистика в реальном времени 🕐 』`, 
+level3: `💫 *НЕТ:*`, 
+level4: `🎊 ты потерялся`,  
+level5: `*XP* для повышения уровня`,    
+level6: `Ура!\n├ Переходите на новый уровень 』`, 
+level7: `*💫 Чем больше вы взаимодействуете с ботами, тем выше ваш уровень*` } 
+ 
 //sticker.js
 const sticker = {
-text: `⏳ *Espere um minuto, estou criando seus adesivos....*`, 
-text1: `_[ ❌ ] Máximo 20 segundos!_`, 
-text2: `*E A IMAGEM?*`, 
-text3: `*Responda a um adesivo para roubar`, 
-text4: `digite algo para convertê-lo em um adesivo :v`, 
-text5: `_*Calma crack, estou transformando seu texto em um adesivo 👏*_\n\n_*Isso pode levar alguns minutos....*_` }
+text: `⏳ *Подожди, я делаю твой стикер....*`, 
+text1: `_[ ❌ ] Максимум 20 секунд!_`, 
+text2: `*И ФОТО?*`, 
+text3: `*Ответная наклейка, чтобы украсть`, 
+text4: `введите что-нибудь, чтобы превратить это в наклейку :v`, 
+text5: `_*Не волнуйся, я превратим твой текст в наклейку 👏*_\n\n_*Это может занять несколько минут.....*_` }
 
-const idioma = (prefix) => { return `*✳️ Usar:*\n${prefix}idioma 1 ( Espanhol)\n${prefix}idioma 2 ( Inglês)\n${prefix}idioma 3 ( árabe)\n${prefix}idioma 4 ( Indonésia)\n${prefix}idioma 5 (Português)\n${prefix}idioma 6 (Rússia)\n\n*❗Exemplo:*\n• ${prefix}idioma 1` } 
-const idioma2 = () => { return `✅ Idiomas alterados com sucesso para ` }
+const idioma = (prefix) => { return `*✳️ Выбери язык бота который удобен тебе:*\n${prefix}язык 1 (Испанский)\n${prefix}язык 2 (Английский)\n${prefix}язык 3 (арабский)\n${prefix}язык 4 (Индонезия)\n${prefix}язык 5 ( португальский)\n${prefix}язык 6 ( Россия)\n\n*❗ Пример:*\n• ${prefix}язык 6` } 
+const idioma2 = () => { return `✅ Язык успешно изменен на ` }
 
-const smsReg = () => { return `*Você já está registrado 🧐*` }
-const smsReg1 = (prefix) => { return `*❌ Forma incorreta*\n\nuse desta forma\nExemplo: ${prefix}reg name.age` }
-const smsReg2 = () => { return `O nome não pode ficar vazio` }
-const smsReg3 = () => { return `A idade não pode estar vazia (Números)` }
-const smsReg4 = () => { return 'É velho (。-`ω´-)' }
-const smsReg5 = () => { return `🚼  Com base em, os bebês sabem escrever.✍️😳` }
-const smsReg6 = () => { return `🐈 Fua que baseado, o nome é muito longo que quer uma ponte como nome😹` }
-const smsReg7 = (name, user, age, time, date, sender, sn, prefix, rtotalreg) => { return `[ ✅ INSCRIÇÃO CONCLUÍDA ]\n\n ◉ *Nome:* ${name} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓' : ''}\n ◉ *Idade:* ${age} anos\n ◉ *Hora:* ${time}\n ◉ *Data:* ${date}\n ◉ *Número:* wa.me/${sender.split("@")[0]}\n ◉ *Número de série*\n ⤷ ${sn}\n\n 🎁 *Recompensa:*\n ⤷ 2 diamante 💎\n ⤷ 200 exp\n\n *◉ Para ver os comandos do bot, use:*
- ${prefix}menu\n\n ◉ *Total de usuários registrados:* ${rtotalreg}` }
-const smsReg8 = () => { return `*💬 Escolha seu idioma com:* #idioma` }
+const smsReg = () => { return `*Вы уже зарегистрированы 🧐*` }
+const smsReg1 = (prefix) => { return `*❌ Неправильная форма*\n\nиспользуйте этот формат\nПример: ${prefix}reg name.Age.` }
+const smsReg2 = () => { return `Имя не может быть пустым` }
+const smsReg3 = () => { return `Возраст не может быть пустым (число)` }
+const smsReg4 = () => { return 'Это старое (。-`ω´-)' }
+const smsReg5 = () => { return `🚼 Исходя из этого, малыш умеет писать.✍️😳` }
+const smsReg6 = () => { return `🐈 Очень просто, имя настолько длинное, что я хочу, чтобы в качестве имени был мост.😹` }
+const smsReg7 = (name, user, age, time, date, sender, sn, prefix, rtotalreg) => { return `[ ✅ РЕГИСТРАЦИЯ ЗАВЕРШЕНА ]\n\n ◉ *Ник:* ${name} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓' : ''}\n ◉ *Возраст:* ${age}  лет\n ◉ *Время:* ${time}\n ◉ *Дата:* ${date}\n ◉ *Номер:* wa.me/${sender.split("@")[0]}\n ◉ *Серийный номер*\n ⤷ ${sn}\n\n 🎁 *Подарок:*\n ⤷ 2 алмаз 💎\n ⤷ 200 опыт\n\n *◉ Для просмотра команд бота используй комманду:*
+ ${prefix}menu\n\n ◉ *Всего зарегистрированных пользователей:* ${rtotalreg}` }
+const smsReg8 = () => { return `*💬 Выберите язык бота с помощью:* #язык` }
  
-const cuenta = (nna, md, yt, tiktok, fb) => { return `*Bem-vindo às contas oficiais ✨*
+const cuenta = (nna, md, yt, tiktok, fb) => { return `*Добро пожаловать в мои официальные аккаунты ✨*
 
-*👑 Número oficial do bot:*
-• wa.me/51910628581 
+*👑 Официальный номер создателя:*
+• wa.me/79524197466
 
-*✨ Canal WhatsApp / Atualização:*
+*✨ Группа WhatsApp:*
 • ${nna}
-
-*✨ github:*
-• ${md}
 
 *✨ YOUTUBE:*
 • ${yt}
 
-*✨ TIK TOK:*
+*✨ ТИК ТАК:*
 • ${tiktok}
 
-*✨ FACEBOOK:*
+*✨ ФЕЙСБУК:*
 • ${fb}
 
-*Se você tiver dúvidas, sugestões ou perguntas, pode me escrever no Facebook*` }
+*Если у вас есть пожелания, предложения или вопросы, вы можете написать мне в Ватсап.*` }
 
 module.exports = { lenguaje, exito, tmp, session, errorsession, archivo, AvisoMG, archborrado, archivoborrado, purgesessions, purgesubbots, purgeoldfiles, smscall, smscall2, smsAvisos, smsAvisos2, smsAvisos3, smsAvisos4, smsAvisos5, smsAvisos6, smsAvisos7, smsAvisos8, smsAvisos9, smsWel, smsWel2, smsWel3, smsWel4, smsWel5, smsWel6, smsWel7, smsWel8, smsWel9, smsWel10, smsWel11, smsBye, smsBye2, smsBye3, smsBye4, smsBye5, smsConexion, smsEscaneaQR, smsConectado, smsConexioncerrar, nivel, nivel2, admin, botAdmin, propietario, group, private, bot, error, advertencia, registra, limit, AntiNsfw, endLimit, result, lengua, sms, Bio, smsAntiFake, smsAntiArabe, smsAntiLink, smsAntiLink2, smsAntiLink3, smsAntiLink4, smsAntiLink5, smsAutoSicker, smsAutonivel, smsAutonivel2, smsAutonivel3, smsAutonivel4, smsAutonivel5, smsAutonivel6, smsAutonivel7, smsAutonivel8, smsAutonivel9, smsAntiPv, info, menu, jadibot, descargar, demote, promote, enable, grupos, juegos, nsfw, owner, ramdow, rpg, sticker, idioma, idioma2, smsReg, smsReg1, smsReg2, smsReg3, smsReg4, smsReg5, smsReg6, smsReg7, smsReg8, cuenta}
